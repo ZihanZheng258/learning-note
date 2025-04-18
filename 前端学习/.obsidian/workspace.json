@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "f962d4e05849ee9a",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd0cb1e6a2c4db47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5971e4f4c01727a9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f4232575a8eaffe7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3f65a244f6660a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b8db9807ce9d0a4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "40b35e1a983433a8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "6282b486380316bd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "41620fb5ffed0506",
+    "type": "split",
+    "children": [
+      {
+        "id": "930a66ec340563ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97e79ee2b6587a11",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JavaScript/javascript对象/对象基础/全局对象.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "全局对象 的反向链接列表"
+            }
+          },
+          {
+            "id": "d360f93de4f3415e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "欢迎.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "欢迎 的出链列表"
+            }
+          },
+          {
+            "id": "d0bf1547a3e9726c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "bac49c30a69fb12d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "欢迎.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "欢迎 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "5971e4f4c01727a9",
+  "lastOpenFiles": [
+    "JavaScript/javascript对象/对象基础/全局对象.md",
+    "JavaScript/浏览器控制/浏览器环境，规格.md",
+    "image/Pasted image 20250418172355.png",
+    "JavaScript/异步回调/回调.md",
+    "JavaScript/浏览器控制",
+    "JavaScript/未命名.md",
+    "JavaScript/javaScript基础使用/Rest 参数与 Spread 语法.md",
+    "JavaScript/javascript对象/对象基础/JSON.md",
+    "JavaScript/javascript对象/日期和时间.md",
+    "JavaScript/javascript对象/对象基础/对象.md",
+    "JavaScript/javaScript基础使用/数据解构赋值.md",
+    "JavaScript/javascript对象/对象基础",
+    "JavaScript/javascript对象/Map和Set.md",
+    "JavaScript/javaScript基础使用/迭代器.md",
+    "JavaScript/javaScript基础使用/javaScript数据类型/数组.md",
+    "JavaScript/javaScript基础使用/javaScript数据类型/字符串.md",
+    "JavaScript/javaScript基础使用/javaScript数据类型/javaScript数据类型简介.md",
+    "JavaScript/javaScript基础使用/javaScript数据类型/数字类型.md",
+    "JavaScript/javaScript基础使用/javaScript数据类型",
+    "JavaScript/javascript对象/对象基础/对象转换原始值.md",
+    "JavaScript/javascript对象/symbol.md",
+    "JavaScript/异步回调",
+    "JavaScript/javascript对象/对象基础/构造器.md",
+    "JavaScript/javascript对象/对象基础/对象方法.md",
+    "JavaScript/javascript高级/垃圾回收.md",
+    "JavaScript/javascript对象/对象基础/克隆合并.md",
+    "JavaScript/javaScript简介.md",
+    "JavaScript/javascript高级",
+    "JavaScript/javaScript基础使用/空值合并运算符.md",
+    "JavaScript/javascript对象",
+    "JavaScript/javaScript基础使用/类型转换.md",
+    "JavaScript/javaScript基础使用/常用函数.md",
+    "JavaScript/javaScript基础使用/js变量声明.md",
+    "JavaScript/javaScript基础使用",
+    "CSS/CSS选择器",
+    "image",
+    "image/Pasted image 20250413091412.png",
+    "HTML/HTML基础"
+  ]
+}
