@@ -1,57 +1,66 @@
 {
   "main": {
-    "id": "066bee298322755f",
+    "id": "ea9b76524e08a075",
     "type": "split",
     "children": [
       {
-        "id": "b37fc9e1a164afe3",
+        "id": "e8525f0010cfb4ea",
         "type": "tabs",
         "children": [
           {
-            "id": "13bd35fa26658ef0",
+            "id": "7e6aedbc60dc7545",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "让编程再度伟大笔记/image/Pasted image 20250506091322.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250506091322"
+            }
+          },
+          {
+            "id": "fab9bccfeb8a323e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "image/Pasted image 20250506161106.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250506161106"
+            }
+          },
+          {
+            "id": "88087e9fd2f18d15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "欢迎.md",
+                "file": "安全/单点登录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "欢迎"
+              "title": "单点登录"
             }
           }
-        ]
-      },
-      {
-        "id": "8c5087c7f04ed474",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "07692b8240a275da",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
-            }
-          }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "882e798464942238",
+    "id": "3ed73a34c84567ea",
     "type": "split",
     "children": [
       {
-        "id": "9e4f4c562a9fe223",
+        "id": "9598d96645af2076",
         "type": "tabs",
         "children": [
           {
-            "id": "41143a15c0a4962d",
+            "id": "6d4d09daf75934c3",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -64,7 +73,7 @@
             }
           },
           {
-            "id": "445723b17dfcc891",
+            "id": "c09f5c806785bcb7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -81,7 +90,7 @@
             }
           },
           {
-            "id": "b08316028df8ce95",
+            "id": "0e8c2dce02f9aa4d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -94,23 +103,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "4355e817a11f3094",
+    "id": "f64e73f1e1e5ced3",
     "type": "split",
     "children": [
       {
-        "id": "0ab57e3615af9eec",
+        "id": "ca2f10654395b83f",
         "type": "tabs",
         "children": [
           {
-            "id": "7060898f8bc5fb85",
+            "id": "f654b7183e54a645",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欢迎.md",
+                "file": "vue3/Pinia状态管理/PiniaStore字段/Getter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,25 +129,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "欢迎 的反向链接列表"
+              "title": "Getter 的反向链接列表"
             }
           },
           {
-            "id": "1be0ff90c133568b",
+            "id": "d5554812dca1b1b2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欢迎.md",
+                "file": "架构历史/微服务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "欢迎 的出链列表"
+              "title": "微服务 的出链列表"
             }
           },
           {
-            "id": "d9fd0cb0c2e646b5",
+            "id": "68ab6adb98b0f2fe",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -153,18 +162,18 @@
             }
           },
           {
-            "id": "516713fa89881e0a",
+            "id": "8c9ac7adc08ce980",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "欢迎.md",
+                "file": "架构历史/微服务.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "欢迎 的大纲"
+              "title": "微服务 的大纲"
             }
           }
         ]
@@ -184,8 +193,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "13bd35fa26658ef0",
+  "active": "88087e9fd2f18d15",
   "lastOpenFiles": [
-    "欢迎.md"
+    "Pasted image 20250506170128.png",
+    "安全/Oauth2四种场景/凭证式.md",
+    "安全/Oauth2四种场景/密码式.md",
+    "安全/Oauth2四种场景/隐藏式.md",
+    "安全/Oauth2四种场景/授权码.md",
+    "image/Pasted image 20250506164346.png",
+    "image/Pasted image 20250506164334.png",
+    "安全/OATH2.md",
+    "安全/Oauth2四种场景",
+    "安全/JWT.md",
+    "image/Pasted image 20250506160941.png",
+    "image/Pasted image 20250506161106.png",
+    "image",
+    "未命名.md",
+    "安全/单点登录.md",
+    "存储/RAID硬盘阵列.md",
+    "安全",
+    "存储/Nas是什么.md",
+    "存储/Nas存储方式.md",
+    "运维相关/热更新和冷更新.md",
+    "存储",
+    "让编程再度伟大笔记/工作中自找的难题.md",
+    "运维相关",
+    "让编程再度伟大笔记/学了也没啥用的玩意.md",
+    "让编程再度伟大笔记/职业生涯.md",
+    "让编程再度伟大笔记/经得起时间的代码.md",
+    "让编程再度伟大笔记/架构师之路.md",
+    "让编程再度伟大笔记/image/Pasted image 20250503104610.png",
+    "让编程再度伟大笔记/image/Pasted image 20250506091322.png",
+    "让编程再度伟大笔记/image",
+    "让编程再度伟大笔记",
+    "CSS/CSS属性/CSS 表格属性.md",
+    "CSS/CSS属性/CSS 列表属性.md",
+    "CSS/CSS属性/CSS边框属性.md",
+    "CSS/CSS盒子模型.md",
+    "box-model.gif",
+    "CSS/CSS属性/CSS超链接属性.md",
+    "CSS/CSS属性/CSS背景属性.md",
+    "CSS/CSS属性/CSS 字体属性.md",
+    "CSS/CSS属性/CSS 文本格式属性.md",
+    "serif.gif",
+    "CSS/CSS属性",
+    "vue3/Pinia状态管理/PiniaStore字段",
+    "image/Pasted image 20250418172355.png",
+    "image/Pasted image 20250413091412.png",
+    "架构历史"
   ]
 }
