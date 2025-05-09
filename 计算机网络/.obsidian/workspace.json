@@ -11,10 +11,14 @@
             "id": "885a2b6ee1cdb05a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "网络层/单播，多播(组播)和广播.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "单播，多播(组播)和广播"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f64e73f1e1e5ced3",
@@ -167,17 +170,42 @@
   },
   "active": "885a2b6ee1cdb05a",
   "lastOpenFiles": [
-    "架构历史/软件架构的历史演变.md",
-    "架构历史/无服务时代.md",
-    "架构基础/学习架构的原因和主要方向.md",
-    "架构历史/单体架构.md",
-    "架构历史/后微服务.md",
-    "架构历史/微服务.md",
-    "凤凰架构总纲.md",
-    "架构历史/SOA.md",
-    "架构历史/原始分布式时代.md",
+    "网络层/IP.md",
+    "传输层/传输层.md",
+    "传输层/TCP/TCP连接.md",
+    "传输层/TCP/TCP协议.md",
+    "传输层/TCP/TCP协议请求体.md",
+    "传输层/TCP/TCP协议报文切分.md",
+    "传输层/TCP/TCP 三次握手.md",
+    "网络层/ICMP.md",
+    "网络层/单播，多播(组播)和广播.md",
+    "网络层/IGMP.md",
+    "Pasted image 20250507173024.png",
+    "网络层/NAT.md",
+    "images/Pasted image 20250507172131.png",
+    "images/Pasted image 20250507172123.png",
+    "images/Pasted image 20250507172033.png",
+    "images/Pasted image 20250507172010.png",
+    "网络层/DHCP.md",
+    "images/Pasted image 20250507171742.png",
+    "应用层/HTTP协议/HTTPS/基于ECDHE算法的TLS握手.md",
+    "应用层/WebSocket.md",
+    "应用层/HTTP协议/HTTPS/TLS记录协议.md",
+    "应用层/HTTP协议/HTTPS/数字证书.md",
+    "应用层/HTTP协议/HTTPS/基于RSA算法的TLS握手.md",
+    "应用层/HTTP协议/HTTPS/HTTPS连接过程.md",
+    "应用层/HTTP协议/HTTPS/HTTPS简介.md",
+    "应用层/HTTP协议/HTTPS",
+    "images/Pasted image 20250507144850.png",
+    "images/Pasted image 20250507144813.png",
+    "应用层/HTTP协议/HTTP长连接.md",
+    "应用层/HTTP协议/HTTP缓存.md",
+    "应用层/HTTP协议/GET和POST.md",
+    "应用层/HTTP协议/HTTP的缺点.md",
+    "应用层/HTTP协议/HTTP协议.md",
+    "应用层/应用层协议.md",
+    "应用层/HTTP协议/HTTP协议状态码.md",
     "架构历史",
-    "未命名 1.md",
     "架构基础"
   ]
 }

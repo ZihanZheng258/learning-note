@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++基础常识/C++基础语法/枚举.md",
+                "file": "C++基础常识/C++基础语法/C++数组.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "枚举"
+              "title": "C++数组"
             }
           }
         ]
@@ -170,9 +170,9 @@
   },
   "active": "23a462b09b4e5d59",
   "lastOpenFiles": [
+    "C++基础常识/C++基础语法/枚举.md",
     "C++基础常识/C++基础语法/C++数组.md",
     "image/Pasted image 20250428174522.png",
-    "C++基础常识/C++基础语法/枚举.md",
     "image/Pasted image 20250428174346.png",
     "C++基础常识/C++基础语法/共用体.md",
     "image/Pasted image 20250428173457.png",
