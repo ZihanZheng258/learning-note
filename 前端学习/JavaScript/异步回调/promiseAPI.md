@@ -1,0 +1,70 @@
+## [Promise.all](https://zh.javascript.info/promise-api#promiseall)
+
+假设我们希望并行执行多个 promise，并等待所有 promise 都准备就绪。
+
+例如，并行下载几个 URL，并等到所有内容都下载完毕后再对它们进行处理。
+
+这就是 `Promise.all` 的用途。
+语法:
+
+``` js
+let promise = Promise.all(iterable);
+```
+
+`Promise.all` 接受一个可迭代对象（通常是一个数组项为 promise 的数组），并返回一个新的 promise。
+
+==当所有给定的 promise 都 resolve 时，新的 promise 才会 resolve，并且其结果数组将成为新 promise 的结果。==
+
+例如，下面的 `Promise.all` 在 3 秒之后 settled，然后它的结果就是一个 `[1, 2, 3]` 数组：
+
+```js
+Promise.all([
+  new Promise(resolve => setTimeout(() => resolve(1), 3000)), // 1
+  new Promise(resolve => setTimeout(() => resolve(2), 2000)), // 2
+  new Promise(resolve => setTimeout(() => resolve(3), 1000))  // 3
+]).then(alert); // 1,2,3 当上面这些 promise 准备好时：每个 promise 都贡献了数组中的一个元素
+```
+
+==请注意，结果数组中元素的顺序与其在源 promise 中的顺序相同。==即使第一个 promise 花费了最长的时间才 resolve，但它仍是结果数组中的第一个。
+
+==一个常见的技巧是，将一个任务数据数组映射（map）到一个 promise 数组，然后将其包装到 `Promise.all`。==
+
+例如，如果我们有一个存储 URL 的数组，我们可以像这样 fetch 它们：
+
+```js
+let urls = [
+  'https://api.github.com/users/iliakan',
+  'https://api.github.com/users/remy',
+  'https://api.github.com/users/jeresig'
+];
+
+// 将每个 url 映射（map）到 fetch 的 promise 中
+let requests = urls.map(url => fetch(url));
+
+// Promise.all 等待所有任务都 resolved
+Promise.all(requests)
+  .then(responses => responses.forEach(
+    response => alert(`${response.url}: ${response.status}`)
+  ));
+```
+
+**如果任意一个 promise 被 reject，由 `Promise.all` 返回的 promise 就会立即 reject，并且带有的就是这个 error。**
+
+## [Promise.allSettled](https://zh.javascript.info/promise-api#promiseallsettled)
+
+如果任意的 promise reject，则 `Promise.all` 整个将会 reject。当我们需要 **所有** 结果都成功时，它对这种“全有或全无”的情况很有用：
+
+```js
+Promise.all([
+  fetch('/template.html'),
+  fetch('/style.css'),
+  fetch('/data.json')
+]).then(render); // render 方法需要所有 fetch 的数据
+```
+
+`Promise.allSettled` 等待所有的 promise 都被 settle，无论结果如何。结果数组会是这样的：
+
+- 对成功的响应，结果数组对应元素的内容为 `{status:"fulfilled", value:result}`，
+- 对出现 error 的响应，结果数组对应元素的内容为 `{status:"rejected", reason:error}`。
+
+例如，我们想要获取（fetch）多个用户的信息。即使其中一个请求失败，我们仍然对其他的感兴趣。

@@ -1,0 +1,13 @@
+## 使用 npm 命令安装模块
+
+npm 安装 Node.js 模块语法格式如下：
+
+> $ npm install \<Module Name>
+
+以下实例，我们使用 npm 命令安装常用的 Node.js web框架模块 **express**:
+
+> $ npm install express
+
+安装好之后，express 包就放在了工程目录下的 node_modules 目录中，因此在代码中只需要通过 **require('express')** 的方式就好，无需指定第三方包路径。
+
+> var express = require('express');
