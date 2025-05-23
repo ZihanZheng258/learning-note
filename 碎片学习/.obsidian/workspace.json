@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "b38d89114a023374",
+        "id": "be62a72e7739ebf3",
         "type": "tabs",
         "children": [
           {
-            "id": "5b654d2dd8d0c3fc",
+            "id": "c41bb546acbb333f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "安全/攻击/重放攻击.md",
+                "file": "docker/docker操作/运行镜像.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "重放攻击"
+              "title": "运行镜像"
+            }
+          },
+          {
+            "id": "30e793cb2b4062ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docker/数据卷.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "数据卷"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,53 +183,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5b654d2dd8d0c3fc",
+  "active": "30e793cb2b4062ce",
   "lastOpenFiles": [
+    "docker/image镜像.md",
+    "docker/数据卷.md",
+    "docker/dockerFile多阶段构建.md",
+    "docker/使用 Dockerfile 定制镜像.md",
+    "docker/利用 commit 理解镜像构成.md",
+    "docker/docker操作/删除本地镜像.md",
+    "docker/docker操作/列出镜像.md",
+    "docker/docker操作/运行镜像.md",
+    "docker/docker操作/获取镜像.md",
+    "docker/特殊镜像类型.md",
+    "docker/docker操作",
+    "docker/仓库.md",
+    "docker/Container 容器.md",
+    "docker/Dockers 提供的优势.md",
+    "docker/docker简介.md",
+    "docker/docker容器和虚拟机的不同.md",
+    "Pasted image 20250513142043.png",
+    "Pasted image 20250513142020.png",
+    "运维相关/linux/cgroup/基础概念.md",
+    "docker/cgroup.md",
+    "运维相关/流量探针.md",
+    "docker",
+    "运维相关/linux/未命名.md",
+    "运维相关/linux/cgroup",
     "安全/浏览器CA认证.md",
+    "运维相关/linux",
+    "存储/缓存更新策略/旁路缓存策略.md",
+    "存储/缓存更新策略/旁路缓存策略 1.md",
+    "存储/缓存更新策略/写回策略.md",
+    "存储/缓存更新策略/Read Or Write Through策略.md",
+    "存储/缓存更新策略",
     "安全/攻击/重放攻击.md",
     "安全/攻击",
     "让编程再度伟大笔记/ORM的N+1问题.md",
-    "让编程再度伟大笔记/让项目管理更简单的小技巧.md",
-    "让编程再度伟大笔记/架构师之路.md",
-    "安全/Oauth2四种场景/隐藏式.md",
-    "安全/单点登录.md",
-    "让编程再度伟大笔记/职业生涯.md",
-    "运维相关/热更新和冷更新.md",
-    "安全/Oauth2四种场景/授权码.md",
-    "让编程再度伟大笔记/框架.md",
-    "让编程再度伟大笔记/经得起时间的代码.md",
-    "安全/JWT.md",
     "安全/image/Pasted image 20250506170128.png",
     "安全/image/Pasted image 20250506164346.png",
     "安全/image/Pasted image 20250506164334.png",
     "安全/image/Pasted image 20250506161106.png",
     "安全/image/Pasted image 20250506160941.png",
-    "让编程再度伟大笔记/工作中自找的难题.md",
-    "让编程再度伟大笔记/学了也没啥用的玩意.md",
     "安全/image/Pasted image 20250507100924.png",
-    "安全/Oauth2四种场景/凭证式.md",
-    "安全/Oauth2四种场景/密码式.md",
-    "安全/OATH2.md",
     "安全/Oauth2四种场景",
     "安全/image",
-    "未命名.md",
-    "存储/RAID硬盘阵列.md",
     "安全",
-    "存储/Nas是什么.md",
-    "存储/Nas存储方式.md",
     "存储",
-    "运维相关",
     "让编程再度伟大笔记/image/Pasted image 20250503104610.png",
-    "让编程再度伟大笔记/image/Pasted image 20250506091322.png",
-    "让编程再度伟大笔记/image",
-    "让编程再度伟大笔记",
-    "CSS/CSS属性/CSS 表格属性.md",
-    "CSS/CSS属性/CSS 列表属性.md",
-    "CSS/CSS属性/CSS边框属性.md",
-    "CSS/CSS盒子模型.md",
-    "box-model.gif",
-    "serif.gif",
-    "CSS/CSS属性",
-    "vue3/Pinia状态管理/PiniaStore字段"
+    "让编程再度伟大笔记/image/Pasted image 20250506091322.png"
   ]
 }

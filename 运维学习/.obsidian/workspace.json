@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "ea9b76524e08a075",
+    "id": "16ae4d228a104c70",
     "type": "split",
     "children": [
       {
-        "id": "ea1bbf9367017520",
+        "id": "8d6de60baec41a56",
         "type": "tabs",
         "children": [
           {
-            "id": "423e581545f8f761",
+            "id": "e8a47bea73a4b9f4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "redis/高可用/cluster集群节点通信.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "cluster集群节点通信"
+              "title": "新标签页"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3ed73a34c84567ea",
+    "id": "aa4d315824819096",
     "type": "split",
     "children": [
       {
-        "id": "9598d96645af2076",
+        "id": "2169277236ae8aed",
         "type": "tabs",
         "children": [
           {
-            "id": "6d4d09daf75934c3",
+            "id": "ac62fc045ef6f17b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "c09f5c806785bcb7",
+            "id": "41dcd3bab671afa4",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "0e8c2dce02f9aa4d",
+            "id": "cfe81cde61ab0eea",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +74,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5
+    "width": 300
   },
   "right": {
-    "id": "f64e73f1e1e5ced3",
+    "id": "eb23aeb02e6c7f35",
     "type": "split",
     "children": [
       {
-        "id": "ca2f10654395b83f",
+        "id": "2e98312101d196e1",
         "type": "tabs",
         "children": [
           {
-            "id": "f654b7183e54a645",
+            "id": "346366f7b86aea45",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "架构历史/微服务.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "微服务 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
-            "id": "d5554812dca1b1b2",
+            "id": "431100bb962e6b41",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "架构历史/微服务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "微服务 的出链列表"
+              "title": "出链"
             }
           },
           {
-            "id": "68ab6adb98b0f2fe",
+            "id": "fdef51f8e0648aef",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +131,17 @@
             }
           },
           {
-            "id": "8c9ac7adc08ce980",
+            "id": "3f0e767ea02d7e6d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "架构历史/微服务.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "微服务 的大纲"
+              "title": "大纲"
             }
           }
         ]
@@ -168,53 +161,6 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "423e581545f8f761",
-  "lastOpenFiles": [
-    "Pasted image 20250514180905.png",
-    "redis/高可用/cluster集群.md",
-    "redis/高可用/cluster集群节点通信.md",
-    "Pasted image 20250514180501.png",
-    "Pasted image 20250514180437.png",
-    "Pasted image 20250514180248.png",
-    "redis/高可用/哨兵.md",
-    "redis/高可用/主从复制第一次同步.md",
-    "docker/docker简介.md",
-    "docker/cgroup.md",
-    "redis/缓存/怎么保障.md",
-    "docker",
-    "redis/缓存/延迟双删.md",
-    "redis/缓存/未命名",
-    "redis/缓存/缓存一致性.md",
-    "旁路缓存策略.md",
-    "redis/缓存/缓存雪崩.md",
-    "redis/缓存/缓存击穿.md",
-    "redis/缓存/缓存穿透.md",
-    "redis/缓存/旁路缓存策略.md",
-    "欢迎.md",
-    "redis/高可用/增量复制.md",
-    "Pasted image 20250509173633.png",
-    "redis/高可用/命令传播.md",
-    "Pasted image 20250509173330.png",
-    "redis/高可用/主从复制.md",
-    "redis/淘汰策略/redis内存淘汰策略.md",
-    "redis/淘汰策略/过期删除策略.md",
-    "redis/redis简介.md",
-    "redis/redis线程模型.md",
-    "image/Pasted image 20250509161328.png",
-    "image",
-    "redis/持久化/超大Key的影响.md",
-    "redis/淘汰策略",
-    "redis/持久化/混合持久化.md",
-    "redis/持久化/RDB/RDB快照.md",
-    "redis/持久化/RDB",
-    "redis/持久化/AOF",
-    "image/Pasted image 20250509160400.png",
-    "image/Pasted image 20250509160308.png",
-    "nginx",
-    "ELK",
-    "kafka",
-    "rabbitMQ",
-    "Pasted image 20250507173024.png",
-    "images/Pasted image 20250507172131.png"
-  ]
+  "active": "e8a47bea73a4b9f4",
+  "lastOpenFiles": []
 }
