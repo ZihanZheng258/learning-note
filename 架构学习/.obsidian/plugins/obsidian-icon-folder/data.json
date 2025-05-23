@@ -44,5 +44,6 @@
   "架构历史/后微服务.md": "LiAlignLeft",
   "架构历史/无服务时代.md": "LiAlignLeft",
   "访问远程服务": "LiAppWindow",
-  "架构安全性": "LiAppWindow"
+  "架构安全性": "LiAppWindow",
+  "分布式一致性算法": "LiAppWindow"
 }

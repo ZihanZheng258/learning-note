@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "ea9b76524e08a075",
+    "id": "b62c7546be79c5d7",
     "type": "split",
     "children": [
       {
-        "id": "bb823670960440c0",
+        "id": "df937249a6116c0f",
         "type": "tabs",
         "children": [
           {
-            "id": "0bd09f17bf77c991",
+            "id": "9b0b6dc47eac336b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "分布式一致性算法/TCC.md",
+                "file": "python常识/数据类型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TCC"
+              "title": "数据类型"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3ed73a34c84567ea",
+    "id": "a334d64dd41c7430",
     "type": "split",
     "children": [
       {
-        "id": "9598d96645af2076",
+        "id": "21b2cc637565b040",
         "type": "tabs",
         "children": [
           {
-            "id": "6d4d09daf75934c3",
+            "id": "6db76136f18c38d5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "c09f5c806785bcb7",
+            "id": "493c8cf9cbd9f122",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "0e8c2dce02f9aa4d",
+            "id": "e4df62027e78b1f0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 300
   },
   "right": {
-    "id": "f64e73f1e1e5ced3",
+    "id": "3670b9bc91a4fc33",
     "type": "split",
     "children": [
       {
-        "id": "ca2f10654395b83f",
+        "id": "7774d85e9d558f44",
         "type": "tabs",
         "children": [
           {
-            "id": "f654b7183e54a645",
+            "id": "3f8976070036cabb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "架构历史/微服务.md",
+                "file": "python常识/数据类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "微服务 的反向链接列表"
+              "title": "数据类型 的反向链接列表"
             }
           },
           {
-            "id": "d5554812dca1b1b2",
+            "id": "3a5af73246b7c026",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "架构历史/微服务.md",
+                "file": "python常识/数据类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "微服务 的出链列表"
+              "title": "数据类型 的出链列表"
             }
           },
           {
-            "id": "68ab6adb98b0f2fe",
+            "id": "048eca59def19cdb",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +137,18 @@
             }
           },
           {
-            "id": "8c9ac7adc08ce980",
+            "id": "a58dfe390abb4fe7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "架构历史/微服务.md",
+                "file": "python常识/数据类型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "微服务 的大纲"
+              "title": "数据类型 的大纲"
             }
           }
         ]
@@ -168,40 +168,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0bd09f17bf77c991",
+  "active": "9b0b6dc47eac336b",
   "lastOpenFiles": [
-    "分布式一致性算法/可靠事件队列.md",
-    "Pasted image 20250511160930.png",
-    "分布式一致性算法/强一致性和最终一致性.md",
-    "分布式一致性算法/CAP.md",
-    "分布式一致性算法/三阶段提交.md",
-    "分布式一致性算法/两阶段提交(2PC).md",
-    "分布式一致性算法/阶段提交算法的问题.md",
-    "分布式一致性算法/阶段提交算法为什么也不能完全保持一致.md",
-    "分布式一致性算法/一致性哈希.md",
-    "分布式一致性算法/TCC.md",
-    "分布式一致性算法/raft算法.md",
-    "分布式一致性算法/paxos/SEGA.md",
-    "分布式一致性算法/paxos/paxos算法.md",
-    "分布式一致性算法/paxos",
-    "架构安全性/认证.md",
-    "分布式一致性算法",
-    "架构安全性/架构安全性知识索引.md",
-    "访问远程服务/Restful.md",
-    "架构安全性",
-    "架构演进史/架构演进历史细节索引.md",
-    "未命名/未命名.md",
-    "架构演进史",
-    "访问远程服务/进程间通信.md",
-    "访问远程服务/远程服务调用.md",
-    "访问远程服务/访问远程服务简介.md",
-    "访问远程服务/RPC访问远程服务的三个基本问题.md",
-    "访问远程服务/为什么同机进程间通信的模式不可照搬至远程服务调用上.md",
-    "访问远程服务",
-    "架构历史/软件架构的历史演变.md",
-    "凤凰架构总纲.md",
-    "架构基础/学习架构的原因和主要方向.md",
-    "架构历史",
-    "架构基础"
+    "python常识/python解释器.md",
+    "python常识/数据类型.md",
+    "欢迎.md",
+    "python常识"
   ]
 }
