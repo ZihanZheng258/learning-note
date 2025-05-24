@@ -62,9 +62,83 @@ Promise.all([
 ]).then(render); // render 方法需要所有 fetch 的数据
 ```
 
-`Promise.allSettled` 等待所有的 promise 都被 settle，无论结果如何。结果数组会是这样的：
+==`Promise.allSettled` 等待所有的 promise 都被 settle，无论结果如何。结果数组会是这样的：==
 
 - 对成功的响应，结果数组对应元素的内容为 `{status:"fulfilled", value:result}`，
 - 对出现 error 的响应，结果数组对应元素的内容为 `{status:"rejected", reason:error}`。
 
 例如，我们想要获取（fetch）多个用户的信息。即使其中一个请求失败，我们仍然对其他的感兴趣。
+
+让我们使用 `Promise.allSettled`：
+
+```js
+let urls = [
+  'https://api.github.com/users/iliakan',
+  'https://api.github.com/users/remy',
+  'https://no-such-url'
+];
+
+Promise.allSettled(urls.map(url => fetch(url)))
+  .then(results => { // (*)
+    results.forEach((result, num) => {
+      if (result.status == "fulfilled") {
+        alert(`${urls[num]}: ${result.value.status}`);
+      }
+      if (result.status == "rejected") {
+        alert(`${urls[num]}: ${result.reason}`);
+      }
+    });
+  });
+```
+上面的 `(*)` 行中的 `results` 将会是：
+```js
+[
+  {status: 'fulfilled', value: ...response...},
+  {status: 'fulfilled', value: ...response...},
+  {status: 'rejected', reason: ...error object...}
+]
+```
+
+所以，对于每个 promise，我们都得到了其状态（status）和 `value/reason`。
+
+### [Polyfill](https://zh.javascript.info/promise-api#polyfill)
+
+如果浏览器不支持 `Promise.allSettled`，很容易进行 polyfill：
+```js
+if (!Promise.allSettled) {
+  const rejectHandler = reason => ({ status: 'rejected', reason });
+
+  const resolveHandler = value => ({ status: 'fulfilled', value });
+
+  Promise.allSettled = function (promises) {
+    const convertedPromises = promises.map(p => Promise.resolve(p).then(resolveHandler, rejectHandler));
+    return Promise.all(convertedPromises);
+  };
+}
+```
+
+在这段代码中，`promises.map` 获取输入值，并通过 `p => Promise.resolve(p)` 将输入值转换为 promise（以防传递了非 promise 值），然后向每一个 promise 都添加 `.then` 处理程序。
+
+这个处理程序将成功的结果 `value` 转换为 `{status:'fulfilled', value}`，将 error `reason` 转换为 `{status:'rejected', reason}`。这正是 `Promise.allSettled` 的格式。
+
+然后我们就可以使用 `Promise.allSettled` 来获取 **所有** 给定的 promise 的结果，即使其中一些被 reject。
+
+## [Promise.race](https://zh.javascript.info/promise-api#promiserace)
+
+与 `Promise.all` 类似，但只等待第一个 settled 的 promise 并获取其结果（或 error）。
+
+语法：
+```js
+let promise = Promise.race(iterable);
+```
+例如，这里的结果将是 `1`：
+```js
+Promise.race([
+  new Promise((resolve, reject) => setTimeout(() => resolve(1), 1000)),
+  new Promise((resolve, reject) => setTimeout(() => reject(new Error("Whoops!")), 2000)),
+  new Promise((resolve, reject) => setTimeout(() => resolve(3), 3000))
+]).then(alert); // 1
+```
+
+这里第一个 promise 最快，所以它变成了结果。第一个 settled 的 promise “赢得了比赛”之后，所有进一步的 result/error 都会被忽略。
+

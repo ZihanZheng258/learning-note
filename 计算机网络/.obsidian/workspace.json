@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络层/单播，多播(组播)和广播.md",
+                "file": "应用层/HTTP协议和RPC(远程调用).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "单播，多播(组播)和广播"
+              "title": "HTTP协议和RPC(远程调用)"
             }
           }
         ]
@@ -170,15 +170,17 @@
   },
   "active": "885a2b6ee1cdb05a",
   "lastOpenFiles": [
-    "网络层/IP.md",
+    "Pasted image 20250516170741.png",
     "传输层/传输层.md",
+    "应用层/HTTP协议和RPC(远程调用).md",
+    "网络层/单播，多播(组播)和广播.md",
+    "网络层/IP.md",
     "传输层/TCP/TCP连接.md",
     "传输层/TCP/TCP协议.md",
     "传输层/TCP/TCP协议请求体.md",
     "传输层/TCP/TCP协议报文切分.md",
     "传输层/TCP/TCP 三次握手.md",
     "网络层/ICMP.md",
-    "网络层/单播，多播(组播)和广播.md",
     "网络层/IGMP.md",
     "Pasted image 20250507173024.png",
     "网络层/NAT.md",
@@ -203,8 +205,6 @@
     "应用层/HTTP协议/GET和POST.md",
     "应用层/HTTP协议/HTTP的缺点.md",
     "应用层/HTTP协议/HTTP协议.md",
-    "应用层/应用层协议.md",
-    "应用层/HTTP协议/HTTP协议状态码.md",
     "架构历史",
     "架构基础"
   ]

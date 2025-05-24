@@ -168,15 +168,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "423e581545f8f761",
+  "active": "6d4d09daf75934c3",
   "lastOpenFiles": [
-    "Pasted image 20250514180905.png",
     "redis/高可用/cluster集群.md",
+    "redis/高可用/哨兵.md",
     "redis/高可用/cluster集群节点通信.md",
+    "Pasted image 20250514180905.png",
     "Pasted image 20250514180501.png",
     "Pasted image 20250514180437.png",
     "Pasted image 20250514180248.png",
-    "redis/高可用/哨兵.md",
     "redis/高可用/主从复制第一次同步.md",
     "docker/docker简介.md",
     "docker/cgroup.md",
@@ -214,7 +214,6 @@
     "ELK",
     "kafka",
     "rabbitMQ",
-    "Pasted image 20250507173024.png",
-    "images/Pasted image 20250507172131.png"
+    "Pasted image 20250507173024.png"
   ]
 }
