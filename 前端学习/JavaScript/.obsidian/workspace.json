@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "ea9b76524e08a075",
+    "id": "077b73e5e7f5844b",
     "type": "split",
     "children": [
       {
-        "id": "bb823670960440c0",
+        "id": "6b22e9d1415c0262",
         "type": "tabs",
         "children": [
           {
-            "id": "0bd09f17bf77c991",
+            "id": "0bc6c50ae9e16871",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "分布式一致性算法/TCC.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "TCC"
+              "title": "新标签页"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3ed73a34c84567ea",
+    "id": "03056c36c62ac134",
     "type": "split",
     "children": [
       {
-        "id": "9598d96645af2076",
+        "id": "032bb9a1b125ab8a",
         "type": "tabs",
         "children": [
           {
-            "id": "6d4d09daf75934c3",
+            "id": "7956b40d996fa67f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "c09f5c806785bcb7",
+            "id": "c26fda8dada080ad",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "0e8c2dce02f9aa4d",
+            "id": "a5771c37c967dfda",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +74,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 300
   },
   "right": {
-    "id": "f64e73f1e1e5ced3",
+    "id": "1355459ab0f30f0a",
     "type": "split",
     "children": [
       {
-        "id": "ca2f10654395b83f",
+        "id": "135fb35cf5ca9721",
         "type": "tabs",
         "children": [
           {
-            "id": "f654b7183e54a645",
+            "id": "5d8deeb76f1aa0d0",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "架构历史/微服务.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "微服务 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
-            "id": "d5554812dca1b1b2",
+            "id": "7543728c95b39dbb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "架构历史/微服务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "微服务 的出链列表"
+              "title": "出链"
             }
           },
           {
-            "id": "68ab6adb98b0f2fe",
+            "id": "8ed2ac465d26c81a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +131,17 @@
             }
           },
           {
-            "id": "8c9ac7adc08ce980",
+            "id": "dfc12ee1b178cfee",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "架构历史/微服务.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "微服务 的大纲"
+              "title": "大纲"
             }
           }
         ]
@@ -168,40 +161,6 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0bd09f17bf77c991",
-  "lastOpenFiles": [
-    "分布式一致性算法/可靠事件队列.md",
-    "Pasted image 20250511160930.png",
-    "分布式一致性算法/强一致性和最终一致性.md",
-    "分布式一致性算法/CAP.md",
-    "分布式一致性算法/三阶段提交.md",
-    "分布式一致性算法/两阶段提交(2PC).md",
-    "分布式一致性算法/阶段提交算法的问题.md",
-    "分布式一致性算法/阶段提交算法为什么也不能完全保持一致.md",
-    "分布式一致性算法/一致性哈希.md",
-    "分布式一致性算法/TCC.md",
-    "分布式一致性算法/raft算法.md",
-    "分布式一致性算法/paxos/SEGA.md",
-    "分布式一致性算法/paxos/paxos算法.md",
-    "分布式一致性算法/paxos",
-    "架构安全性/认证.md",
-    "分布式一致性算法",
-    "架构安全性/架构安全性知识索引.md",
-    "访问远程服务/Restful.md",
-    "架构安全性",
-    "架构演进史/架构演进历史细节索引.md",
-    "未命名/未命名.md",
-    "架构演进史",
-    "访问远程服务/进程间通信.md",
-    "访问远程服务/远程服务调用.md",
-    "访问远程服务/访问远程服务简介.md",
-    "访问远程服务/RPC访问远程服务的三个基本问题.md",
-    "访问远程服务/为什么同机进程间通信的模式不可照搬至远程服务调用上.md",
-    "访问远程服务",
-    "架构历史/软件架构的历史演变.md",
-    "凤凰架构总纲.md",
-    "架构基础/学习架构的原因和主要方向.md",
-    "架构历史",
-    "架构基础"
-  ]
+  "active": "0bc6c50ae9e16871",
+  "lastOpenFiles": []
 }
