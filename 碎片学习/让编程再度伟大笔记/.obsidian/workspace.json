@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "ea9b76524e08a075",
+    "id": "f1ad92a398f69b64",
     "type": "split",
     "children": [
       {
-        "id": "59a9e33dc452a6bf",
+        "id": "705a6603eb25f39c",
         "type": "tabs",
         "children": [
           {
-            "id": "4cc25ca0fe64539c",
+            "id": "c85d1e594df691ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智慧政府/来自TO B的思考/来自TO B的思考.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "来自TO B的思考"
+              "title": "新标签页"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3ed73a34c84567ea",
+    "id": "56a00e12b7f5248b",
     "type": "split",
     "children": [
       {
-        "id": "9598d96645af2076",
+        "id": "a2383c719ca9f30c",
         "type": "tabs",
         "children": [
           {
-            "id": "6d4d09daf75934c3",
+            "id": "9e2b2eb1b119a8b1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "c09f5c806785bcb7",
+            "id": "d7eec7077cd2b3f2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "0e8c2dce02f9aa4d",
+            "id": "34ccb092b545d1d2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +74,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "f64e73f1e1e5ced3",
+    "id": "53e922a564afdb80",
     "type": "split",
     "children": [
       {
-        "id": "ca2f10654395b83f",
+        "id": "f47dbef18b16089c",
         "type": "tabs",
         "children": [
           {
-            "id": "f654b7183e54a645",
+            "id": "2b4be79083318f9e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/Pinia状态管理/PiniaStore字段/Getter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Getter 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
-            "id": "d5554812dca1b1b2",
+            "id": "f35171905eb5cb78",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "架构历史/微服务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "微服务 的出链列表"
+              "title": "出链"
             }
           },
           {
-            "id": "68ab6adb98b0f2fe",
+            "id": "c697bef75cf64ccb",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +131,17 @@
             }
           },
           {
-            "id": "8c9ac7adc08ce980",
+            "id": "d5eea7ef4a8ef616",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "架构历史/微服务.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "微服务 的大纲"
+              "title": "大纲"
             }
           }
         ]
@@ -168,52 +161,6 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4cc25ca0fe64539c",
-  "lastOpenFiles": [
-    "智慧政府/来自TO B的思考/什么是TOB.md",
-    "职场/如何评判一个产品部门管理者（经理）的水平高低？.md",
-    "职场/有趣的回答",
-    "智慧政府/来自TO B的思考/来自TO B的思考.md",
-    "职场",
-    "智慧政府/toG业务研究/ToG业务难点.md",
-    "智慧政府/来自TO B的思考/TOB业务指标.md",
-    "智慧政府/一网通办.md",
-    "智慧政府/来自TO B的思考",
-    "让编程再度伟大笔记/业务编排.md",
-    "Pasted image 20250513142020.png",
-    "Pasted image 20250525091420.png",
-    "让编程再度伟大笔记/技术规划.md",
-    "存储/网络文件系统（NFS）.md",
-    "Pasted image 20250525064016.png",
-    "运维相关/linux/命令/软件管理命令.md",
-    "运维相关/linux/命令/硬件状态命令.md",
-    "运维相关/linux/命令/网络应用要点.md",
-    "运维相关/linux/命令/系统操作.md",
-    "运维相关/linux/命令/用户管理命令.md",
-    "运维相关/linux/命令/加解压.md",
-    "运维相关/linux/命令/文件查看内容命令.md",
-    "运维相关/linux/命令/帮助命令.md",
-    "运维相关/linux/命令/文件类型.md",
-    "运维相关/linux/文件.md",
-    "Pasted image 20250524183553.png",
-    "运维相关/linux/用户.md",
-    "运维相关/linux/命令",
-    "运维相关/linux/shell.md",
-    "之后再分类/CDN.md",
-    "思考/业务的复杂.md",
-    "之后再分类/MQTT.md",
-    "之后再分类/未命名.md",
-    "让编程再度伟大笔记/image/Pasted image 20250503104610.png",
-    "智慧政府/toG业务研究",
-    "智慧政府/概念",
-    "智慧政府",
-    "docker/k8s/有状态无状态",
-    "Pasted image 20250519154934.png",
-    "Pasted image 20250519153428.png",
-    "之后再分类/中台",
-    "思考",
-    "Pasted image 20250519095602.png",
-    "Pasted image 20250519091100.png",
-    "Pasted image 20250516090351.png"
-  ]
+  "active": "c85d1e594df691ad",
+  "lastOpenFiles": []
 }
