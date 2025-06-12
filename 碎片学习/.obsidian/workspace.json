@@ -1,32 +1,55 @@
 {
   "main": {
-    "id": "ea9b76524e08a075",
+    "id": "a4257c0c2f1a0d7c",
     "type": "split",
     "children": [
       {
-        "id": "76f5dd4f3d434d70",
+        "id": "a9f3f5688bb43650",
         "type": "tabs",
         "children": [
           {
-            "id": "4448e9b0b6db76e9",
+            "id": "6d64f428061a11a3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "概念/技术概念/BFF.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "BFF"
+            }
+          },
+          {
+            "id": "f1c2e683fc00dc2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "智慧政府/来自TO B的思考/来自TO B的思考.md",
-=======
-                "file": "之后再分类/线上定位问题/Logback.md",
->>>>>>> 4416963101e90e3ea0da485123287fd36bf67a8b
+                "file": "之后再分类/网证CTID.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "来自TO B的思考"
-=======
-              "title": "Logback"
->>>>>>> 4416963101e90e3ea0da485123287fd36bf67a8b
+              "title": "网证CTID"
+            }
+          },
+          {
+            "id": "4d9c1a9979cce139",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "存储/clickerHouse.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "clickerHouse"
             }
           }
         ]
@@ -35,15 +58,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3ed73a34c84567ea",
+    "id": "467ba97c6a32ea1a",
     "type": "split",
     "children": [
       {
-        "id": "9598d96645af2076",
+        "id": "764d9f76e1b2e3dd",
         "type": "tabs",
         "children": [
           {
-            "id": "6d4d09daf75934c3",
+            "id": "7cbf5b54b9aecc1a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +79,7 @@
             }
           },
           {
-            "id": "c09f5c806785bcb7",
+            "id": "ec198fe684c0d0f8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -73,7 +96,7 @@
             }
           },
           {
-            "id": "0e8c2dce02f9aa4d",
+            "id": "24b045cbc4ab771a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -86,23 +109,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "f64e73f1e1e5ced3",
+    "id": "a78ffa8596dfc98b",
     "type": "split",
     "children": [
       {
-        "id": "ca2f10654395b83f",
+        "id": "a53be9bb306f1cb0",
         "type": "tabs",
         "children": [
           {
-            "id": "f654b7183e54a645",
+            "id": "1fb35ecb8bcab356",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/Pinia状态管理/PiniaStore字段/Getter.md",
+                "file": "运维相关/linux/shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,25 +135,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Getter 的反向链接列表"
+              "title": "shell 的反向链接列表"
             }
           },
           {
-            "id": "d5554812dca1b1b2",
+            "id": "4b70df664eeeb673",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "架构历史/微服务.md",
+                "file": "运维相关/linux/shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "微服务 的出链列表"
+              "title": "shell 的出链列表"
             }
           },
           {
-            "id": "68ab6adb98b0f2fe",
+            "id": "106bc05a0d54fd52",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -145,18 +168,18 @@
             }
           },
           {
-            "id": "8c9ac7adc08ce980",
+            "id": "1cf9100baef2f12f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "架构历史/微服务.md",
+                "file": "运维相关/linux/shell.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "微服务 的大纲"
+              "title": "shell 的大纲"
             }
           }
         ]
@@ -173,104 +196,39 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "4448e9b0b6db76e9",
+  "active": "7cbf5b54b9aecc1a",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "智慧政府/来自TO B的思考/什么是TOB.md",
-    "职场/如何评判一个产品部门管理者（经理）的水平高低？.md",
-    "职场/有趣的回答",
-    "智慧政府/来自TO B的思考/来自TO B的思考.md",
-    "职场",
-    "智慧政府/toG业务研究/ToG业务难点.md",
-    "智慧政府/来自TO B的思考/TOB业务指标.md",
-    "智慧政府/一网通办.md",
-    "智慧政府/来自TO B的思考",
-    "让编程再度伟大笔记/业务编排.md",
-    "Pasted image 20250513142020.png",
-    "Pasted image 20250525091420.png",
-    "让编程再度伟大笔记/技术规划.md",
-    "存储/网络文件系统（NFS）.md",
-    "Pasted image 20250525064016.png",
-    "运维相关/linux/命令/软件管理命令.md",
-    "运维相关/linux/命令/硬件状态命令.md",
-    "运维相关/linux/命令/网络应用要点.md",
-    "运维相关/linux/命令/系统操作.md",
-    "运维相关/linux/命令/用户管理命令.md",
-    "运维相关/linux/命令/加解压.md",
-    "运维相关/linux/命令/文件查看内容命令.md",
-    "运维相关/linux/命令/帮助命令.md",
-    "运维相关/linux/命令/文件类型.md",
-    "运维相关/linux/文件.md",
-    "Pasted image 20250524183553.png",
-    "运维相关/linux/用户.md",
-    "运维相关/linux/命令",
-    "运维相关/linux/shell.md",
-    "之后再分类/CDN.md",
-    "思考/业务的复杂.md",
-    "之后再分类/MQTT.md",
-    "之后再分类/未命名.md",
-    "让编程再度伟大笔记/image/Pasted image 20250503104610.png",
-    "智慧政府/toG业务研究",
-    "智慧政府/概念",
-    "智慧政府",
-    "docker/k8s/有状态无状态",
-    "Pasted image 20250519154934.png",
-    "Pasted image 20250519153428.png",
-    "之后再分类/中台",
-    "思考",
-    "Pasted image 20250519095602.png",
-    "Pasted image 20250519091100.png",
-    "Pasted image 20250516090351.png"
-=======
-    "之后再分类/线上定位问题/SLF4J.md",
-    "之后再分类/线上定位问题/Logback.md",
-    "之后再分类/GraphQL.md",
-    "Pasted image 20250529180058.png",
-    "让编程再度伟大笔记/职业生涯.md",
-    "之后再分类/线上定位问题/Arthas.md",
-    "之后再分类/线上定位问题/BTrace.md",
-    "之后再分类/线上定位问题/Jaeger.md",
-    "之后再分类/线上定位问题/Spring Cloud Sleuth.md",
-    "之后再分类/线上定位问题/Zipkin.md",
-    "海量数据处理/大数据处理 - 双层桶划分.md",
-    "之后再分类/Wine.md",
-    "存储/湖仓一体.md",
-    "存储/数据湖.md",
-    "Pasted image 20250529113248.png",
-    "存储/ETL.md",
-    "存储/数据集市.md",
-    "存储/数据仓库.md",
-    "存储/数仓概念.md",
-    "存储/离线数仓.md",
-    "Pasted image 20250529110612.png",
-    "存储/MPP(大规模并行处理)架构.md",
     "存储/clickerHouse.md",
-    "思考/业务的复杂.md",
+    "存储/MPP(大规模并行处理)架构.md",
+    "概念/技术概念/BFF.md",
+    "之后再分类/网证CTID.md",
+    "概念/技术概念/POSIX(IEEE 1003 标准).md",
+    "存储/ETL.md",
     "存储/异构数据库.md",
-    "存储/RAID硬盘阵列.md",
-    "存储/Nas是什么.md",
-    "概念/技术概念/大数据/HDFS(分布式文件系统).md",
-    "概念/技术概念/MDC(诊断日志容器).md",
-    "概念/技术概念/大数据",
-    "概念/业务概念",
-    "概念/技术概念",
-    "概念",
-    "之后再分类/线上定位问题",
-    "Pasted image 20250528195432.png",
-    "Pasted image 20250528195337.png",
-    "Pasted image 20250527204426.png",
-    "Pasted image 20250527204421.png",
-    "梗",
-    "Pasted image 20250527085802.png",
-    "Pasted image 20250527084623.png",
-    "职场",
-    "智慧政府/招投标",
-    "让编程再度伟大笔记/image/Pasted image 20250503104610.png",
-    "智慧政府/toG业务研究",
-    "智慧政府/概念"
->>>>>>> 4416963101e90e3ea0da485123287fd36bf67a8b
+    "智慧政府/产品演示.md",
+    "海量数据处理/大数据处理 之 分治,hash,排序（IP访问频率统计）.md",
+    "概念/技术概念/ISR：增量式的网站渲染.md",
+    "概念/技术概念/嵌入式/指令集.md",
+    "概念/技术概念/嵌入式/ARM.md",
+    "概念/技术概念/嵌入式/SLAM.md",
+    "让编程再度伟大笔记/ORM的N+1问题.md",
+    "概念/技术概念/嵌入式/嵌入式.md",
+    "概念/技术概念/嵌入式/上位机.md",
+    "概念/技术概念/嵌入式/单片机MCU.md",
+    "概念/技术概念/嵌入式",
+    "Pasted image 20250607030903.png",
+    "概念/技术概念/CSR.md",
+    "概念/技术概念/DPR 分布式的持续渲染.md",
+    "概念/技术概念/SSG.md",
+    "概念/技术概念/SSR是什么.md",
+    "安全/CSR文件.md",
+    "之后再分类/AI agent.md",
+    "运维相关/linux/shell.md",
+    "运维相关/linux/用户.md"
   ]
 }

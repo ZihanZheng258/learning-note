@@ -11,10 +11,14 @@
             "id": "0bc6c50ae9e16871",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "javascript对象/对象基础/对象转换原始值.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "对象转换原始值"
             }
           }
         ]
@@ -162,5 +166,8 @@
     }
   },
   "active": "0bc6c50ae9e16871",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "javascript对象/对象基础/对象方法.md",
+    "javascript对象/对象基础/对象.md"
+  ]
 }
