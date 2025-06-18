@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++基础常识/C++基础语法/指针/使用delete来释放内存.md",
+                "file": "C++基础常识/C++源代码到程序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "使用delete来释放内存"
+              "title": "C++源代码到程序"
             }
           }
         ]
@@ -170,11 +170,15 @@
   },
   "active": "23a462b09b4e5d59",
   "lastOpenFiles": [
+    "C++高级/析构函数.md",
+    "C++高级/RAII.md",
+    "C++基础常识/C++基础语法/指针/使用delete来释放内存.md",
+    "未命名.md",
+    "C++高级",
     "Pasted image 20250510194529.png",
     "Pasted image 20250510194509.png",
     "Pasted image 20250510194419.png",
     "C++基础常识/C++基础语法/指针/用new来分配内存.md",
-    "C++基础常识/C++基础语法/指针/使用delete来释放内存.md",
     "Pasted image 20250510194310.png",
     "Pasted image 20250510194253.png",
     "Pasted image 20250510194245.png",
@@ -190,7 +194,6 @@
     "C++基础常识/C++基础语法/指针/声明和初始化指针.md",
     "C++基础常识/C++基础语法/未命名.md",
     "C++基础常识/C++基础语法/指针",
-    "Pasted image 20250510193440.png",
     "C++基础常识/C++基础语法/枚举.md",
     "C++基础常识/C++基础语法/赋值运算符.md",
     "C++基础常识/C++基础语法/C++数组.md",
@@ -205,8 +208,6 @@
     "C++基础常识/C++编译/编译.md",
     "C++基础常识/C++编译/预处理.md",
     "C++基础常识/C++编译/GDB.md",
-    "C++基础常识/C++编译/GCC.md",
-    "C++基础常识/C++编译/GNU.md",
     "C++基础常识/C++编译",
     "image",
     "C++基础常识/C++基础语法",
