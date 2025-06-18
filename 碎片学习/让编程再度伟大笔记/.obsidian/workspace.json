@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "077b73e5e7f5844b",
+    "id": "f1ad92a398f69b64",
     "type": "split",
     "children": [
       {
-        "id": "6b22e9d1415c0262",
+        "id": "705a6603eb25f39c",
         "type": "tabs",
         "children": [
           {
-            "id": "0bc6c50ae9e16871",
+            "id": "c85d1e594df691ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "javascript对象/对象基础/对象转换原始值.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "对象转换原始值"
+              "title": "新标签页"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "03056c36c62ac134",
+    "id": "56a00e12b7f5248b",
     "type": "split",
     "children": [
       {
-        "id": "032bb9a1b125ab8a",
+        "id": "a2383c719ca9f30c",
         "type": "tabs",
         "children": [
           {
-            "id": "7956b40d996fa67f",
+            "id": "9e2b2eb1b119a8b1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "c26fda8dada080ad",
+            "id": "d7eec7077cd2b3f2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "a5771c37c967dfda",
+            "id": "34ccb092b545d1d2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,15 +77,15 @@
     "width": 300
   },
   "right": {
-    "id": "1355459ab0f30f0a",
+    "id": "53e922a564afdb80",
     "type": "split",
     "children": [
       {
-        "id": "135fb35cf5ca9721",
+        "id": "f47dbef18b16089c",
         "type": "tabs",
         "children": [
           {
-            "id": "5d8deeb76f1aa0d0",
+            "id": "2b4be79083318f9e",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -107,7 +103,7 @@
             }
           },
           {
-            "id": "7543728c95b39dbb",
+            "id": "f35171905eb5cb78",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -120,7 +116,7 @@
             }
           },
           {
-            "id": "8ed2ac465d26c81a",
+            "id": "c697bef75cf64ccb",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +131,7 @@
             }
           },
           {
-            "id": "dfc12ee1b178cfee",
+            "id": "d5eea7ef4a8ef616",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -165,9 +161,6 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0bc6c50ae9e16871",
-  "lastOpenFiles": [
-    "javascript对象/对象基础/对象方法.md",
-    "javascript对象/对象基础/对象.md"
-  ]
+  "active": "c85d1e594df691ad",
+  "lastOpenFiles": []
 }

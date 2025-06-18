@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/javascript高级/装饰器和转发.md",
+                "file": "工程管理/npm/npm版本号.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "装饰器和转发"
+              "title": "npm版本号"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "npm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,6 +170,9 @@
   },
   "active": "7e6aedbc60dc7545",
   "lastOpenFiles": [
+    "工程管理/npm/npm简介.md",
+    "工程管理/npm/全局安装与本地安装.md",
+    "JavaScript/javascript高级/装饰器和转发.md",
     "JavaScript/javascript高级/JavaScript高级应用.md",
     "JavaScript/异步回调/async和await.md",
     "JavaScript/异步回调/promise错误处理.md",
@@ -194,9 +197,6 @@
     "JavaScript/javascript高级/javascript引擎简介.md",
     "JavaScript/javascript高级/generator生成器.md",
     "JavaScript/javascript高级/垃圾回收.md",
-    "JavaScript/javascript高级/函数绑定.md",
-    "JavaScript/javascript对象/对象基础/克隆合并.md",
-    "JavaScript/javascript对象/对象基础/全局对象.md",
     "image/Pasted image 20250418172355.png",
     "碎片知识",
     "Pasted image 20250514111618.png",
