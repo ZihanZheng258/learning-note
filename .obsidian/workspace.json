@@ -11,10 +11,14 @@
             "id": "443130fe56a69e8b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "python学习/python常识/集合/dict.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "dict"
             }
           }
         ]
@@ -70,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -162,6 +165,6 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d1e3e9748291256c",
+  "active": "443130fe56a69e8b",
   "lastOpenFiles": []
 }

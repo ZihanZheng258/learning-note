@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "人月神话/设计阶段.md",
+                "file": "人月神话/概念的完整性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "设计阶段"
+              "title": "概念的完整性"
             }
           }
         ]
@@ -170,8 +170,13 @@
   },
   "active": "885a2b6ee1cdb05a",
   "lastOpenFiles": [
-    "人月神话/概念的完整性.md",
+    "领域驱动设计/通用语言.md",
+    "领域驱动设计/值对象.md",
+    "领域驱动设计/不变式.md",
+    "领域驱动设计/聚合根/聚合根（Aggregate Root）.md",
+    "领域驱动设计/聚合根",
     "人月神话/设计阶段.md",
+    "人月神话/概念的完整性.md",
     "人月神话/开发过程中错误的乐观主义.md",
     "人月神话/进度安排.md",
     "欢迎.md",
