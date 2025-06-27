@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python常识/面向对象编程/访问限制.md",
+                "file": "python常识/python解释器.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "访问限制"
+              "title": "python解释器"
             }
           }
         ]
@@ -170,6 +170,10 @@
   },
   "active": "4448e9b0b6db76e9",
   "lastOpenFiles": [
+    "python常识/数据类型.md",
+    "python常识/集合/tuple.md",
+    "python常识/集合/list.md",
+    "python常识/集合/dict.md",
     "python常识/面向对象编程/类.md",
     "python常识/面向对象编程/简介.md",
     "python常识/语法/函数/高阶函数/装饰器.md",
@@ -199,6 +203,11 @@
     "python常识/语法/函数/高阶函数/filter.md",
     "python常识/语法/迭代器.md",
     "python常识/语法/列表生成式.md",
+<<<<<<< HEAD
+=======
+    "python常识/语法/迭代.md",
+    "python常识/语法/切片.md",
+>>>>>>> 893524475c26418e428b8e9db97454d7a7d56307
     "python常识/语法/函数",
     "python常识/语法",
     "Pasted image 20250529180058.png",
