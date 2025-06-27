@@ -51,8 +51,23 @@
               "icon": "lucide-file",
               "title": "clickerHouse"
             }
+          },
+          {
+            "id": "849ec650c7a52a7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "概念/技术概念/SSG.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SSG"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -201,18 +216,24 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "7cbf5b54b9aecc1a",
+  "active": "849ec650c7a52a7b",
   "lastOpenFiles": [
+    "概念/技术概念/SSR是什么.md",
+    "概念/技术概念/SSG.md",
+    "概念/技术概念/CSR.md",
+    "概念/技术概念/DPR 分布式的持续渲染.md",
+    "概念/技术概念/ISR：增量式的网站渲染.md",
+    "概念/技术概念/MCP(大模型上下文协议).md",
+    "概念/技术概念/MQTT(消息队列遥测传输协议）.md",
+    "概念/技术概念/POSIX(IEEE 1003 标准).md",
+    "概念/技术概念/BFF.md",
     "存储/clickerHouse.md",
     "存储/MPP(大规模并行处理)架构.md",
-    "概念/技术概念/BFF.md",
     "之后再分类/网证CTID.md",
-    "概念/技术概念/POSIX(IEEE 1003 标准).md",
     "存储/ETL.md",
     "存储/异构数据库.md",
     "智慧政府/产品演示.md",
     "海量数据处理/大数据处理 之 分治,hash,排序（IP访问频率统计）.md",
-    "概念/技术概念/ISR：增量式的网站渲染.md",
     "概念/技术概念/嵌入式/指令集.md",
     "概念/技术概念/嵌入式/ARM.md",
     "概念/技术概念/嵌入式/SLAM.md",
@@ -222,13 +243,8 @@
     "概念/技术概念/嵌入式/单片机MCU.md",
     "概念/技术概念/嵌入式",
     "Pasted image 20250607030903.png",
-    "概念/技术概念/CSR.md",
-    "概念/技术概念/DPR 分布式的持续渲染.md",
-    "概念/技术概念/SSG.md",
-    "概念/技术概念/SSR是什么.md",
     "安全/CSR文件.md",
     "之后再分类/AI agent.md",
-    "运维相关/linux/shell.md",
-    "运维相关/linux/用户.md"
+    "运维相关/linux/shell.md"
   ]
 }
