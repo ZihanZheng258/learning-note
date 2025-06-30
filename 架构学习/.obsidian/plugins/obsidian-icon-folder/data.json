@@ -44,7 +44,6 @@
   "架构历史/后微服务.md": "LiAlignLeft",
   "架构历史/无服务时代.md": "LiAlignLeft",
   "架构安全性": "LiAppWindow",
-  "分布式一致性算法": "LiAppWindow",
   "流量控制": "LiAppWindow",
   "透明多级分流系统": "LiAppWindow",
   "架构可观测性": "LiAppWindow",
@@ -54,6 +53,7 @@
   "从类库到服务/网关路由": "LiAppWindow",
   "从类库到服务/服务发现": "LiAppWindow",
   "从类库到服务/客户端负载均衡": "LiAppWindow",
-  "架构师的视角/访问远程服务": "LiAppWindow",
-  "事务处理": "LiAppWindow"
+  "事务处理": "LiAppWindow",
+  "访问远程服务": "LiAppWindow",
+  "事务处理/分布式一致性算法": "LiAppWindow"
 }
