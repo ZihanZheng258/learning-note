@@ -11,10 +11,14 @@
             "id": "d84068e3588f8596",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "namespace/namespace简介.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "namespace简介"
             }
           }
         ]
@@ -156,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -164,8 +169,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d84068e3588f8596",
+  "active": "6d4d09daf75934c3",
   "lastOpenFiles": [
+    "点net/net版本.md",
+    "点net/mono.md",
+    "点net/点net是什么.md",
+    "namespace/namespace简介.md",
+    "namespace/定义.md",
+    "namespace",
+    "点net",
     "运维相关/linux/概念/文件系统/链接/硬链接.md",
     "运维相关/linux/概念/文件系统/链接/软链接.md",
     "安全/Kerberos概述.md",
@@ -189,13 +201,8 @@
     "概念/技术概念/大数据/hadoop生态/MapReduce.md",
     "概念/技术概念/大数据/hadoop生态/HDFS(分布式文件系统).md",
     "概念/技术概念/大数据/hadoop生态/HBase.md",
-    "概念/技术概念/大数据/hadoop生态/hive.md",
-    "概念/技术概念/大数据/大数据生态概念/数据仓库.md",
-    "概念/技术概念/大数据/大数据生态概念/ETL.md",
     "概念/技术概念/大数据/大数据生态概念",
     "概念/技术概念/大数据/hadoop生态",
-    "概念/技术概念/大数据/大数据生态概念/数仓概念.md",
-    "概念/技术概念/大数据/大数据生态概念/湖仓一体.md",
     "概念/技术概念/大模型/人工智能参数量",
     "思考/未命名",
     "思考/理解业务系统的复杂性",
@@ -204,12 +211,10 @@
     "Pasted image 20250623112102.png",
     "安全/image/Pasted image 20250506160941.png",
     "安全/评测",
-    "概念/技术概念/高性能计算",
     "Pasted image 20250620171140.png",
     "Pasted image 20250620171124.png",
     "Pasted image 20250620170510.png",
     "Pasted image 20250620170207.png",
-    "概念/技术概念/工业软件",
     "Pasted image 20250620110421.png",
     "Pasted image 20250620102454.png",
     "未命名.canvas"

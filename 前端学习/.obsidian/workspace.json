@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nodejs/nodeJs 简介.md",
+                "file": "JavaScript/异步回调/宏任务.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nodeJs 简介"
+              "title": "宏任务"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "npm",
+                "query": "ajax",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 309.5
   },
   "right": {
     "id": "f64e73f1e1e5ced3",
@@ -160,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -170,46 +171,46 @@
   },
   "active": "7e6aedbc60dc7545",
   "lastOpenFiles": [
-    "工程管理/npm/npm简介.md",
-    "nodejs/nodeJs 简介.md",
-    "nodejs",
-    "工程管理/npm/npm安装模块.md",
-    "工程管理/npm/全局安装与本地安装.md",
-    "碎片知识/微前端.md",
-    "工程管理/yarn/yarn简介.md",
-    "工程管理/模块/导出导入.md",
-    "碎片知识/SPA是什么.md",
-    "工程管理/npm/npm版本号.md",
-    "JavaScript/javascript高级/装饰器和转发.md",
-    "JavaScript/javascript高级/JavaScript高级应用.md",
-    "JavaScript/异步回调/async和await.md",
-    "JavaScript/异步回调/promise错误处理.md",
-    "JavaScript/异步回调/js异步编程索引.md",
-    "JavaScript/异步回调/promise.md",
-    "工程管理/模块/动态导入.md",
-    "工程管理/模块/模块简介.md",
-    "工程管理/模块",
-    "JavaScript/异步回调/微任务.md",
+    "JavaScript/网络请求/fetch.md",
+    "浏览器内核/HTML解析.md",
+    "JavaScript/异步回调/promise和任务循环例子.md",
     "JavaScript/异步回调/宏任务.md",
+    "JavaScript/网络请求/ajax.md",
+    "未命名.base",
+    "JavaScript/javaScript简介.md",
+    "JavaScript/javascript高级/generator生成器.md",
+    "JavaScript/网络请求",
+    "JavaScript/javascript高级/变量作用域，闭包.md",
+    "JavaScript/异步回调/回调.md",
+    "JavaScript/异步回调/async和await.md",
+    "浏览器内核/浏览器内核简介.md",
+    "工程管理/优化/首屏优化.md",
+    "浏览器内核",
+    "工程管理/优化",
     "JavaScript/异步回调/Promisification.md",
     "JavaScript/异步回调/promiseAPI.md",
-    "JavaScript/javascript对象/对象基础/原型，继承/F.prototype.md",
-    "JavaScript/javascript对象/对象基础/原型，继承/原型继承.md",
-    "JavaScript/javascript对象/对象基础/构造器.md",
     "JavaScript/异步回调/promise链.md",
-    "JavaScript/浏览器控制/浏览器环境，规格.md",
+    "JavaScript/异步回调/promise错误处理.md",
+    "JavaScript/异步回调/promise的方法.md",
+    "JavaScript/异步回调/未命名.md",
+    "JavaScript/异步回调/promise.md",
+    "JavaScript/异步回调/微任务.md",
+    "JavaScript/堆和栈.md",
+    "JavaScript/变量生命周期.md",
+    "JavaScript/javascript高级/装饰器和转发.md",
+    "JavaScript/javascript高级/单线程.md",
+    "碎片知识/DOM和BOM.md",
+    "JavaScript/浏览器控制/JavaScript浏览器控制.md",
+    "工程管理/nvm",
+    "nodejs",
+    "工程管理/模块",
     "image/Pasted image 20250418172355.png",
     "碎片知识",
     "Pasted image 20250514111618.png",
     "工程管理/yarn",
     "工程管理/npm",
-    "工程管理",
     "box-model.gif",
     "serif.gif",
-    "CSS/CSS属性",
-    "vue3/Pinia状态管理/PiniaStore字段",
-    "image/Pasted image 20250413091412.png",
-    "架构历史",
-    "架构基础"
+    "image/Pasted image 20250413091412.png"
   ]
 }

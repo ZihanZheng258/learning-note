@@ -4,151 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "2f024416948e4b02",
+        "id": "cec04510c552238b",
         "type": "tabs",
         "children": [
           {
-            "id": "49e54fe2155bc03a",
+            "id": "225e50a4964f21d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "透明多级分流系统/负载均衡/负载均衡概述.md",
+                "file": "架构安全性/认证，授权和凭证/认证，授权和凭证.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "负载均衡概述"
+              "title": "认证，授权和凭证"
             }
           },
           {
-            "id": "f0ecffb841115cd5",
+            "id": "5c0752121a19c3fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "透明多级分流系统/负载均衡/数据链路层负载均衡.md",
+                "file": "架构安全性/架构安全性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数据链路层负载均衡"
+              "title": "架构安全性"
             }
           },
           {
-            "id": "1a4fee7f39aec2b2",
+            "id": "938384640f839cb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "透明多级分流系统/透明多级分流系统概论.md",
+                "file": "架构安全性/认证，授权和凭证/认证/认证.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "透明多级分流系统概论"
+              "title": "认证"
             }
           },
           {
-            "id": "2bace91b148ffddb",
+            "id": "0a7d7a4b9084d3c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "透明多级分流系统/链路传输优化/传输压缩.md",
+                "file": "架构安全性/认证，授权和凭证/认证/三个层面上的认证.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "传输压缩"
+              "title": "三个层面上的认证"
             }
           },
           {
-            "id": "c791b6b467dccedb",
+            "id": "dde15afdff425342",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "透明多级分流系统/链路传输优化/快速 UDP 网络连接.md",
+                "file": "架构安全性/认证，授权和凭证/WebAuthn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "快速 UDP 网络连接"
-            }
-          },
-          {
-            "id": "e5eef117a251b8c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "透明多级分流系统/链路传输优化/连接数优化.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "连接数优化"
-            }
-          },
-          {
-            "id": "4dad6ddb884ec6d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "透明多级分流系统/内容分发网络/内容分发操作.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "内容分发操作"
-            }
-          },
-          {
-            "id": "42e781c219232501",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "透明多级分流系统/内容分发网络/内容分发网络.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "内容分发网络"
-            }
-          },
-          {
-            "id": "623cab5a805fe0b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "透明多级分流系统/客户端缓存.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "客户端缓存"
-            }
-          },
-          {
-            "id": "2965408f5c86474c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "透明多级分流系统/DNS 系统多级分流设计.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DNS 系统多级分流设计"
+              "title": "WebAuthn"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -190,7 +120,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "全局事",
+                "query": "即使只限定在“软件架构设计”这个语境下，系统安全仍然是一个很大的话题",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -297,6 +227,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -305,53 +236,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "42e781c219232501",
+  "active": "dde15afdff425342",
   "lastOpenFiles": [
+    "架构安全性/认证，授权和凭证/认证/三个层面上的认证.md",
+    "架构安全性/认证，授权和凭证/WebAuthn.md",
+    "架构安全性/认证，授权和凭证/认证/认证.md",
+    "架构安全性/认证，授权和凭证/认证，授权和凭证.md",
+    "架构安全性/认证，授权和凭证",
+    "架构安全性/架构安全性.md",
+    "架构安全性/认证，授权和凭证/认证",
+    "未命名.base",
     "透明多级分流系统/内容分发网络/内容分发操作.md",
+    "不可变基础设施/容器间网络/网络通信模型.md",
+    "Pasted image 20250813175901.png",
+    "不可变基础设施/容器间网络/Linux 网络虚拟化.md",
+    "不可变基础设施/云原生定义.md",
+    "不可变基础设施/虚拟化容器.md",
+    "不可变基础设施/容器的崛起.md",
+    "微服务技术方法论/微服务的粒度.md",
+    "不可变基础设施/容器间网络",
+    "微服务技术方法论/背景.md",
+    "微服务技术方法论/微服务的驱动力.md",
+    "微服务技术方法论/治理：理解系统复杂性.md",
+    "微服务技术方法论/微服务需要的条件.md",
+    "架构历史/原始分布式时代.md",
+    "Pasted image 20250711144235.png",
+    "Pasted image 20250711143824.png",
+    "Pasted image 20250711143301.png",
+    "Pasted image 20250711143250.png",
+    "微服务技术方法论",
+    "不可变基础设施",
+    "透明多级分流系统/链路传输优化/传输链路优化.md",
+    "透明多级分流系统/服务端缓存/服务端缓存.md",
+    "透明多级分流系统/服务端缓存/缓存属性.md",
+    "透明多级分流系统/客户端缓存.md",
+    "Circular_Buffer_Animation.gif",
+    "Pasted image 20250630195730.png",
+    "Pasted image 20250630195051.png",
+    "透明多级分流系统/DNS 系统多级分流设计.md",
+    "透明多级分流系统/内容分发网络/内容分发网络.md",
     "透明多级分流系统/链路传输优化/连接数优化.md",
     "透明多级分流系统/链路传输优化/快速 UDP 网络连接.md",
     "透明多级分流系统/链路传输优化/传输压缩.md",
-    "透明多级分流系统/透明多级分流系统概论.md",
-    "透明多级分流系统/DNS 系统多级分流设计.md",
-    "透明多级分流系统/客户端缓存.md",
-    "透明多级分流系统/负载均衡/数据链路层负载均衡.md",
-    "透明多级分流系统/负载均衡/负载均衡概述.md",
-    "事务处理/分布式事务/柔性事务/可靠事件队列.md",
-    "事务处理/分布式事务/柔性事务/SAGA事务.md",
-    "事务处理/分布式事务/柔性事务/TCC.md",
-    "事务处理/分布式事务/CAP/强一致性和最终一致性.md",
+    "透明多级分流系统/服务端缓存",
     "事务处理/分布式事务/柔性事务",
-    "事务处理/分布式事务/CAP/CAP.md",
-    "事务处理/分布式事务/CAP/分区容忍性.md",
-    "事务处理/共享事务/共享事务简介.md",
     "事务处理/分布式事务",
-    "事务处理/全局事务/三阶段提交.md",
     "事务处理/共享事务",
-    "事务处理/全局事务/阶段提交算法的问题.md",
-    "事务处理/全局事务/阶段提交算法为什么也不能完全保持一致.md",
-    "事务处理/全局事务/两阶段提交(2PC).md",
     "Pasted image 20250627142618.png",
-    "Pasted image 20250627142542.png",
-    "事务处理/全局事务/全局事务.md",
-    "访问远程服务/restful设计风格/不足与争议.md",
-    "架构历史/后微服务.md",
-    "架构历史/微服务.md",
-    "架构历史/SOA.md",
-    "架构历史/单体架构.md",
-    "事务处理/全局事务",
-    "访问远程服务/RPC",
-    "访问远程服务/restful设计风格",
-    "Pasted image 20250625193010.png",
-    "Pasted image 20250625192519.png",
-    "架构安全性/授权",
-    "事务处理/分布式事务/CAP",
-    "事务处理/本地事务",
-    "事务处理",
-    "Pasted image 20250613110656.png",
-    "Pasted image 20250613105920.png",
-    "Pasted image 20250613095649.png",
-    "Pasted image 20250611155834.png",
-    "Pasted image 20250610153835.png",
-    "Pasted image 20250603171441.png"
+    "Pasted image 20250627142542.png"
   ]
 }

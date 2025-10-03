@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9e2c0b8e56d38df5",
+        "id": "ec6a45e3fd0a002d",
         "type": "tabs",
         "children": [
           {
-            "id": "255f26b3c7549b6a",
+            "id": "801199b34f416c52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "应用层/HTTP协议/HTTP缓存.md",
+                "file": "杂项/BBR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP缓存"
+              "title": "BBR"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "STUN",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -168,12 +169,40 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "255f26b3c7549b6a",
+  "active": "801199b34f416c52",
   "lastOpenFiles": [
-    "应用层/HTTP协议/HTTP缓存.md",
-    "应用层/Server-Sent Events（SSE）.md",
-    "应用层/HTTP协议和RPC(远程调用).md",
+    "杂项/STUN.md",
+    "杂项/BBR.md",
+    "杂项/TURN.md",
+    "杂项/RTSP.md",
+    "Pasted image 20250910194518.png",
+    "杂项/RTMP.md",
+    "网络层/NAT/Symmetric NAT.md",
+    "网络层/NAT/Restrict NAT.md",
+    "网络层/NAT/Full Cone NAT.md",
+    "网络层/NAT/NAT.md",
+    "网络层/NAT",
+    "应用层/HTTP协议/HTTPS/基于RSA算法的TLS握手.md",
+    "杂项",
+    "应用层/HTTP协议/HTTP2/帧.md",
+    "应用层/HTTP协议/HTTP2/头部阻塞.md",
+    "应用层/HTTP协议/HTTP2/帧为什么不粘包.md",
+    "应用层/HTTP协议/HTTP2/头部压缩.md",
+    "应用层/HTTP协议/HTTP2",
+    "应用层/HTTP协议/HTTP2的优势.md",
+    "Pasted image 20250904163343.png",
+    "Pasted image 20250904163403.png",
+    "Pasted image 20250904163323.png",
+    "Pasted image 20250904163149.png",
+    "计算机网络笔记.md",
+    "Pasted image 20250507173024.png",
+    "Pasted image 20250904162630.png",
     "Pasted image 20250516170741.png",
+    "Pasted image 20250904163609.png",
+    "Pasted image 20250904163534.png",
+    "应用层/Server-Sent Events（SSE）.md",
+    "应用层/HTTP协议/HTTP缓存.md",
+    "应用层/HTTP协议和RPC(远程调用).md",
     "传输层/传输层.md",
     "网络层/单播，多播(组播)和广播.md",
     "网络层/IP.md",
@@ -181,31 +210,7 @@
     "传输层/TCP/TCP协议.md",
     "传输层/TCP/TCP协议请求体.md",
     "传输层/TCP/TCP协议报文切分.md",
-    "传输层/TCP/TCP 三次握手.md",
-    "网络层/ICMP.md",
-    "网络层/IGMP.md",
-    "Pasted image 20250507173024.png",
-    "网络层/NAT.md",
-    "images/Pasted image 20250507172131.png",
-    "images/Pasted image 20250507172123.png",
-    "images/Pasted image 20250507172033.png",
-    "images/Pasted image 20250507172010.png",
-    "网络层/DHCP.md",
-    "images/Pasted image 20250507171742.png",
-    "应用层/HTTP协议/HTTPS/基于ECDHE算法的TLS握手.md",
-    "应用层/WebSocket.md",
-    "应用层/HTTP协议/HTTPS/TLS记录协议.md",
-    "应用层/HTTP协议/HTTPS/数字证书.md",
-    "应用层/HTTP协议/HTTPS/基于RSA算法的TLS握手.md",
-    "应用层/HTTP协议/HTTPS/HTTPS连接过程.md",
-    "应用层/HTTP协议/HTTPS/HTTPS简介.md",
     "应用层/HTTP协议/HTTPS",
-    "images/Pasted image 20250507144850.png",
-    "images/Pasted image 20250507144813.png",
-    "应用层/HTTP协议/HTTP长连接.md",
-    "应用层/HTTP协议/GET和POST.md",
-    "应用层/HTTP协议/HTTP的缺点.md",
-    "应用层/HTTP协议/HTTP协议.md",
     "架构历史",
     "架构基础"
   ]

@@ -55,5 +55,6 @@
   "从类库到服务/客户端负载均衡": "LiAppWindow",
   "事务处理": "LiAppWindow",
   "访问远程服务": "LiAppWindow",
-  "事务处理/分布式一致性算法": "LiAppWindow"
+  "事务处理/分布式一致性算法": "LiAppWindow",
+  "微服务技术方法论": "LiAppWindow"
 }

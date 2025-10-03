@@ -1,5 +1,5 @@
 
-GROK是一种采用组合多个预定义的正则表达式，用来匹配分割文本并映射到关键字的工具。通常用来对日志数据进行处理。特别是在 Elasticsearch、Logstash 和 Kibana (ELK Stack) 中广泛应用。
+GROK是一种采用组合多个预定义的正则表达式，==用来匹配分割文本并映射到关键字的工具。通常用来对日志数据进行处理。特别是在 Elasticsearch、Logstash 和 Kibana (ELK Stack) 中广泛应用。==
 
 **Grok 的核心概念：**
 

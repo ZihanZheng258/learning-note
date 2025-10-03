@@ -1,40 +1,42 @@
-编程中经常遇到的事儿
+## 1. Promise（承诺）是什么？
 
-1. “生产者代码（producing code）”会做一些事儿，并且会需要一些时间。例如，通过网络加载数据的代码。它就像一位“歌手”。
+**Promise** 是 JavaScript 中处理**异步操作**的一种机制，它代表了一个**未来才会知道结果的值**。==你可以把它想象成一个**承诺**：它承诺在未来的某个时间点，会给你一个结果（成功或失败）。==
 
-2. “消费者代码（consuming code）”想要在“生产者代码”完成工作的第一时间就能获得其工作成果。许多函数可能都需要这个结果。这些就是“粉丝”。
+### Promise 的核心优势
 
-3. **Promise** 是将“生产者代码”和“消费者代码”连接在一起的一个特殊的 JavaScript 对象。用我们的类比来说：这就是就像是“订阅列表”。“==生产者代码”花费它所需的任意长度时间来产出所承诺的结果，而 “promise” 将在它（译注：指的是“生产者代码”，也就是下文所说的 executor）准备好时，将结果向所有订阅了的代码开放==。
+在 Promise 出现之前，我们主要通过**回调函数（Callback）**来处理异步，这经常导致“回调地狱”（Callback Hell），==代码难以阅读和维护。Promise 解决了这个问题，它提供了以下好处：==
 
-这种类比并不十分准确，因为 JavaScript 的 promise 比简单的订阅列表更加复杂：它们还拥有其他的功能和局限性。但以此开始挺好的。
+- **链式调用 (Chaining)**：可以通过 `.then()` 方法将多个异步操作串联起来，使代码保持线性结构。
+    
+- **错误处理集中化**：可以使用 `.catch()` 方法集中捕获链中任何环节的错误。
+    
+- **清晰的状态管理**：Promise 严格遵循三种状态，避免了异步流程的混乱。
 
-Promise 对象的构造器（constructor）语法如下：
+### Promise 的三种状态
 
-```js
-let promise = new Promise(function(resolve, reject) {
-  // executor（生产者代码，“歌手”）
-});
-```
+一个 Promise 对象从创建到结束，只会经历以下三种状态之一：
 
-传递给 `new Promise` 的函数被称为 **executor**。==当 `new Promise` 被创建，executor 会自动运行。它包含最终应产出结果的生产者代码==。按照上面的类比：executor 就是“歌手”。
+1. **待定 (Pending)**：初始状态，既不是成功也不是失败。异步操作正在进行中。
+    
+2. **已完成 (Fulfilled)**：异步操作成功完成。此时，Promise 会带有一个**成功值**。
+    
+3. **已拒绝 (Rejected)**：异步操作失败。此时，Promise 会带有一个**拒绝原因**（通常是一个 `Error` 对象）。
+    
 
-它的参数 `resolve` 和 `reject` 是由 JavaScript 自身提供的回调。我们的代码仅在 executor 的内部。
+一旦 Promise 从 **Pending** 状态变为 **Fulfilled** 或 **Rejected**，它的状态就**不可逆转地固定**了。
 
-==当 executor 获得了结果，无论是早还是晚都没关系，它应该调用以下回调之一==：
-
-- `resolve(value)` —— 如果任务成功完成并带有结果 `value`。
-- `reject(error)` —— 如果出现了 error，`error` 即为 error 对象。
-
-所以总结一下就是：executor 会自动运行并尝试执行一项工作。尝试结束后，如果成功则调用 `resolve`，如果出现 error 则调用 `reject`。
-
-由 `new Promise` 构造器返回的 `promise` 对象具有以下内部属性：
-
-- `state` —— 最初是 `"pending"`，然后在 `resolve` 被调用时变为 `"fulfilled"`，或者在 `reject` 被调用时变为 `"rejected"`。
-- `result` —— 最初是 `undefined`，然后在 `resolve(value)` 被调用时变为 `value`，或者在 `reject(error)` 被调用时变为 `error`。
 
 所以，executor 最终将 `promise` 移至以下状态之一：
 
 ![[Pasted image 20250514111618.png]]
+
+## 2. Executor（执行器）是什么？
+
+**Executor**（执行器函数）==是你在创建新的 Promise 实例时，必须传入的**那个函数**。它是连接同步代码和异步操作的核心桥梁。==
+
+### Executor 的定义
+
+当你使用 `new Promise()` 语法时，传入的就是 Executor 函数：
 
 下面是一个 promise 构造器和一个简单的 executor 函数，该 executor 函数具有包含时间（即 `setTimeout`）的“生产者代码”：
 
@@ -66,9 +68,22 @@ let promise = new Promise(function(resolve, reject) {
 });
 ```
 
-总而言之，executor 应该执行一项工作（通常是需要花费一些时间的事儿），然后调用 `resolve` 或 `reject` 来改变对应的 promise 对象的状态。
+总而言之，executor 应该执行一项工作（通常是需要花费一些时间的事儿），==然后调用 `resolve` 或 `reject` 来改变对应的 promise 对象的状态。==
 
 与最初的 “pending” promise 相反，一个 resolved 或 rejected 的 promise 都会被称为 “settled”。
+
+### Executor 的特点和工作原理
+
+1. **立即执行**：Executor 函数是 **同步** 执行的。当你创建 Promise 实例时，==Executor 函数会**立即启动**，而不会等待任何异步事件。==
+    
+2. **两个参数**：Executor 函数接收两个由 JavaScript 引擎提供的**函数**作为参数：
+    
+    - **`resolve` 函数**：当异步操作**成功**时，你必须调用这个函数，将 Promise 的状态从 **Pending** 转换为 **Fulfilled**，并将成功值传给它。
+        
+    - **`reject` 函数**：当异步操作**失败**时，你必须调用这个函数，将 Promise 的状态从 **Pending** 转换为 **Rejected**，并将失败原因传给它。
+        
+
+### 示例：Executor 的作用
 
 ## [消费者：then，catch](https://zh.javascript.info/promise-basics#xiao-fei-zhe-thencatch)
 
