@@ -4,21 +4,37 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "65bcf344535b3a56",
         "type": "tabs",
         "children": [
           {
             "id": "454aa8145a1b3fd4",
+=======
+        "id": "fa7e9d9215e2569d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d84068e3588f8596",
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "C++基础常识/C++基础语法/类型转换/窄化转换.md",
+=======
+                "file": "C++基础常识/C++基础语法/导入库.md",
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "窄化转换"
+=======
+              "title": "导入库"
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
             }
           }
         ]
@@ -53,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "符号",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +94,11 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
     "width": 300
+=======
+    "width": 242.5
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
   },
   "right": {
     "id": "5f19a71fc91d9cd7",
@@ -94,7 +114,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "C++基础常识/C++基础语法/变量/变量生命周期.md",
+=======
+                "file": "vue3/Pinia状态管理/PiniaStore字段/Getter.md",
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +128,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
+<<<<<<< HEAD
               "title": "变量生命周期 的反向链接列表"
+=======
+              "title": "Getter 的反向链接列表"
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
             }
           },
           {
@@ -160,6 +188,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -168,6 +198,7 @@
       "command-palette:打开命令面板": false
     }
   },
+<<<<<<< HEAD
   "active": "454aa8145a1b3fd4",
   "lastOpenFiles": [
     "C++基础常识/C++基础语法/类型转换/explicit.md",
@@ -175,5 +206,56 @@
     "C++基础常识/C++基础语法/变量/初始化/初始化和赋值的区别.md",
     "C++基础常识/C++基础语法/变量/初始化/直接初始化.md",
     "C++基础常识/C++基础语法/变量/变量生命周期.md"
+=======
+  "active": "d84068e3588f8596",
+  "lastOpenFiles": [
+    "C++基础常识/C++基础语法/枚举.md",
+    "C++基础常识/C++基础语法/输入输出.md",
+    "C++基础常识/C++基础语法/结构.md",
+    "C++基础常识/C++编译/链接成可执行文件后还会保留符号表吗.md",
+    "C++基础常识/C++编译/未命名.md",
+    "C++基础常识/C++编译/符号表.md",
+    "C++基础常识/变量/聚合类型.md",
+    "C++基础常识/变量/初始化/聚合初始化.md",
+    "C++基础常识/链接性/无链接.md",
+    "C++基础常识/链接性/内部链接性.md",
+    "C++基础常识/链接性/外部链接性.md",
+    "C++基础常识/变量/静态变量和全局变量的区别.md",
+    "C++基础常识/链接性",
+    "C++基础常识/未命名.md",
+    "C++基础常识/类型转换/explicit.md",
+    "C++基础常识/变量/初始化/列表初始化.md",
+    "C++基础常识/变量/初始化/复制初始化.md",
+    "C++基础常识/变量/初始化/默认初始化.md",
+    "C++基础常识/变量/初始化/初始化和赋值的区别.md",
+    "C++基础常识/变量/初始化/直接初始化.md",
+    "C++基础常识/变量/初始化/值初始化.md",
+    "C++基础常识/变量/初始化/零初始化.md",
+    "C++基础常识/变量/变量生命周期.md",
+    "C++基础常识/C++源代码到程序.md",
+    "运维相关/linux/概念/文件系统/链接/硬链接.md",
+    "运维相关/linux/概念/文件系统/链接/软链接.md",
+    "安全/Kerberos概述.md",
+    "概念/技术概念/大模型",
+    "概念/技术概念/杂项",
+    "概念/技术概念/大数据/大数据生态概念",
+    "概念/技术概念/大数据/hadoop生态",
+    "概念/技术概念/大模型/人工智能参数量",
+    "思考/未命名",
+    "思考/理解业务系统的复杂性",
+    "Pasted image 20250623153514.png",
+    "Pasted image 20250623112121.png",
+    "Pasted image 20250623112102.png",
+    "安全/image/Pasted image 20250506160941.png",
+    "安全/评测",
+    "概念/技术概念/高性能计算",
+    "Pasted image 20250620171140.png",
+    "Pasted image 20250620171124.png",
+    "Pasted image 20250620170510.png",
+    "Pasted image 20250620170207.png",
+    "Pasted image 20250620110421.png",
+    "Pasted image 20250620102454.png",
+    "未命名.canvas"
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
   ]
 }

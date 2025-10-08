@@ -13,12 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "python常识/语法/with.md",
+=======
+                "file": "python常识/语法/切片.md",
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "with"
+=======
+              "title": "切片"
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
             }
           }
         ]
@@ -53,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "这些被双下划线",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,6 +168,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -170,6 +179,7 @@
   },
   "active": "4e11964606dc8e36",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "python常识/错误处理/单元测试.md",
     "python常识/语法/with.md",
     "python常识/错误处理/简介.md",
@@ -198,5 +208,53 @@
     "python常识/语法/函数/定义函数.md",
     "python常识/语法/函数/函数的参数.md",
     "python常识/面向对象编程/高级"
+=======
+    "python常识/面向对象编程/类.md",
+    "python常识/特殊方法/__new__(cls, ...).md",
+    "python常识/特殊方法/__del__(self).md",
+    "python常识/特殊方法/__repr__(self).md",
+    "python常识/特殊方法/__delattr__(self, name).md",
+    "python常识/特殊方法/__setattr__(self, name, value).md",
+    "python常识/特殊方法/__add__.md",
+    "python常识/特殊方法/特殊方法.md",
+    "python常识/特殊方法/__len__.md",
+    "python常识/特殊方法/__str__.md",
+    "python常识/特殊方法/__init__.md",
+    "python常识/特殊方法",
+    "python常识/特殊方法/__getattribute__.md",
+    "python常识/特殊方法/__getattr__.md",
+    "python常识/面向对象编程/get和set.md",
+    "python常识/面向对象编程/访问不存在的属性.md",
+    "python常识/面向对象编程/简介.md",
+    "python常识/面向对象编程/访问限制.md",
+    "python常识/语法/私有变量命名.md",
+    "python常识/模块/案例.md",
+    "python常识/模块/模块.md",
+    "python常识/语法/函数/定义函数.md",
+    "python常识/语法/函数/函数的参数.md",
+    "python常识/语法/函数/尾递归.md",
+    "python常识/语法/函数/调用函数.md",
+    "python常识/语法/函数/高阶函数/高阶函数.md",
+    "python常识/语法/函数/高阶函数/返回函数.md",
+    "高级",
+    "Python冷知识",
+    "Python使用场景",
+    "python常识/面向对象编程",
+    "python常识/模块",
+    "python常识/语法/函数/高阶函数",
+    "python常识/语法/函数",
+    "python常识/语法",
+    "Pasted image 20250529180058.png",
+    "Pasted image 20250529113248.png",
+    "Pasted image 20250529110612.png",
+    "概念/技术概念/大数据",
+    "Pasted image 20250528195432.png",
+    "Pasted image 20250528195337.png",
+    "Pasted image 20250527204426.png",
+    "Pasted image 20250527204421.png",
+    "Pasted image 20250527085802.png",
+    "Pasted image 20250527084623.png",
+    "让编程再度伟大笔记/image/Pasted image 20250503104610.png"
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
   ]
 }

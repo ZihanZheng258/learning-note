@@ -1,8 +1,8 @@
-NPM（Node Package Manager）是一个 JavaScript 包管理工具，也是 Node.js 的默认包管理器。
+==NPM（Node Package Manager）是一个 JavaScript 包管理工具，也是 Node.js 的默认包管理器。==
 
 NPM 允许开发者轻松地下载、安装、共享、管理项目的依赖库和工具。
 
-NPM 是 Node.js 自带的包管理工具，因此，通常你只需安装 Node.js，NPM 就会自动安装在系统中
+==NPM 是 Node.js 自带的包管理工具，因此，通常你只需安装 Node.js，NPM 就会自动安装在系统中==
 
 **主要功能：**
 

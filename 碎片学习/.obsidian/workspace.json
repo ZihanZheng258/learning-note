@@ -4,21 +4,37 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "e2e6283a4de5ee52",
         "type": "tabs",
         "children": [
           {
             "id": "694dc2f3cb983df4",
+=======
+        "id": "a2484a81f1e737f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ca78959d69cb25c",
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "运维相关/工具/SaltStack.md",
+=======
+                "file": "概念/技术概念/硬件/元件/脚位.md",
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "SaltStack"
+=======
+              "title": "脚位"
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
             }
           }
         ]
@@ -53,7 +69,11 @@
             "state": {
               "type": "search",
               "state": {
+<<<<<<< HEAD
                 "query": "",
+=======
+                "query": "分立",
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,12 +93,33 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "2f03cecd1f7a3b10",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "未命名 1.canvas",
+                "viewState": {
+                  "x": 20,
+                  "y": 33,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名 1"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
     "width": 300
+=======
+    "width": 318.5
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
   },
   "right": {
     "id": "dc0be95d815429ed",
@@ -94,7 +135,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "概念/技术概念/区块链/简介.md",
+=======
+                "file": "海量数据处理/IO多路复用/水平触发和边缘触发.md",
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +149,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
+<<<<<<< HEAD
               "title": "简介 的反向链接列表"
+=======
+              "title": "水平触发和边缘触发 的反向链接列表"
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
             }
           },
           {
@@ -142,30 +191,43 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "概念/技术概念/区块链/简介.md",
+=======
+                "file": "概念/技术概念/计算机基础/操作系统/启动引导/未命名.base",
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
+<<<<<<< HEAD
               "title": "简介 的大纲"
+=======
+              "title": "未命名 的大纲"
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+<<<<<<< HEAD
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
@@ -195,5 +257,60 @@
     "运维相关/备份/热备份.md",
     "运维相关/备份/冷备份.md",
     "概念/技术概念/区块链/简介.md"
+=======
+      "random-note:开始漫游笔记": false
+    }
+  },
+  "active": "6d4d09daf75934c3",
+  "lastOpenFiles": [
+    "概念/技术概念/WebRTC.md",
+    "概念/技术概念/移动端/smali(安卓逆向语言).md",
+    "概念/技术概念/杂项/色彩编码模型/RGB.md",
+    "概念/技术概念/杂项/色彩编码模型/YUV.md",
+    "概念/技术概念/杂项/色彩编码模型/YIQ.md",
+    "概念/技术概念/杂项/色彩编码模型/三者对比.md",
+    "概念/技术概念/杂项/色彩编码模型/概述.md",
+    "概念/技术概念/运维相关/容器/CRI.md",
+    "概念/技术概念/杂项/色彩编码模型",
+    "概念/技术概念/运维相关/容器/OCI runtime.md",
+    "概念/技术概念/运维相关/容器/podman/Podman.md",
+    "技术演进和历史",
+    "概念/技术概念/运维相关/容器/OCI.md",
+    "Pasted image 20250928101529.png",
+    "Pasted image 20250928101512.png",
+    "Pasted image 20250928101443.png",
+    "Pasted image 20250928101419.png",
+    "Pasted image 20250928101335.png",
+    "概念/技术概念/运维相关/容器/docker/问题/docker是容器，还是容器引擎？如果是引擎，那么真正的容器是linux的原生容器吗.md",
+    "概念/技术概念/运维相关/容器/docker/仓库.md",
+    "概念/技术概念/运维相关/容器/docker/问题",
+    "概念/技术概念/运维相关/容器/docker/docker简介.md",
+    "Pasted image 20250928100107.png",
+    "概念/技术概念/运维相关/容器/docker/Dockers 提供的优势.md",
+    "概念/技术概念/运维相关/容器/podman",
+    "概念/技术概念/运维相关/容器/docker/dockerFile多阶段构建.md",
+    "概念/技术概念/运维相关/容器/docker/docker容器和虚拟机的不同.md",
+    "概念/技术概念/运维相关/容器/docker/存储/数据卷.md",
+    "概念/技术概念/运维相关/容器/docker/存储/挂载主机目录.md",
+    "概念/技术概念/运维相关/容器/docker/docker操作/列出镜像.md",
+    "概念/技术概念/运维相关/容器/docker/docker操作/获取镜像.md",
+    "概念/技术概念/杂项/RTSP和RTMP.md",
+    "概念/技术概念/运维相关/容器编排/k8s/节点组件/容器运行时.md",
+    "概念/技术概念/运维相关/容器编排/k8s/节点组件/kube-proxy.md",
+    "概念/技术概念/运维相关/容器编排/k8s/节点组件/节点组件简介.md",
+    "概念/技术概念/运维相关/容器编排/k8s/有状态无状态/定义.md",
+    "概念/技术概念/运维相关/容器编排/k8s/节点组件",
+    "概念/技术概念/运维相关/容器编排/k8s/有状态无状态",
+    "概念/技术概念/运维相关/容器编排/k8s/控制平面",
+    "概念/技术概念/运维相关/容器编排/k8s/插件",
+    "概念/技术概念/运维相关/容器/docker/存储",
+    "概念/技术概念/运维相关/容器编排/k8s",
+    "Pasted image 20250926163823.png",
+    "Pasted image 20250926105932.png",
+    "Pasted image 20250926101741.png",
+    "Pasted image 20250926101700.png",
+    "未命名 1.canvas",
+    "未命名.canvas"
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
   ]
 }
