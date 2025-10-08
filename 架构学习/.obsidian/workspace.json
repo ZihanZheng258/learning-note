@@ -120,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -162,7 +162,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ARIES",
+                "query": "stea",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,7 +183,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -277,10 +278,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5bb7c9977dd2d59c",
+  "active": "f372a19ca7734d31",
   "lastOpenFiles": [
-    "事务处理/本地事务/Write-Ahead Logging.md",
     "事务处理/本地事务/实现隔离性.md",
+    "事务处理/本地事务/Write-Ahead Logging.md",
     "事务处理/本地事务/ARIES.md",
     "事务处理/本地事务/原子性和持久性.md",
     "事务处理/本地事务/影子分页.md",

@@ -1,0 +1,44 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiBadge",
+      "LiAppWindow",
+      "LiAlignLeft"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "架构基础/学习架构的原因和主要方向.md": "LiAlignLeft",
+  "架构基础": "LiAppWindow",
+  "架构历史": "LiAppWindow",
+  "架构历史/单体架构.md": "LiAlignLeft",
+  "架构历史/原始分布式时代.md": "LiAlignLeft",
+  "架构历史/SOA.md": "LiAlignLeft",
+  "架构历史/微服务.md": "LiAlignLeft",
+  "架构历史/软件架构的历史演变.md": "LiBadge",
+  "架构历史/后微服务.md": "LiAlignLeft"
+}
