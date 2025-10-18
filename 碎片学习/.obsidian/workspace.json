@@ -1,24 +1,40 @@
 {
   "main": {
-    "id": "ea9b76524e08a075",
+    "id": "e3b97df5e9043ea2",
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
+        "id": "e2e6283a4de5ee52",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "694dc2f3cb983df4",
+=======
         "id": "a2484a81f1e737f0",
         "type": "tabs",
         "children": [
           {
             "id": "3ca78959d69cb25c",
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "概念/数学概念/线性代数/线性变换/线性变换.md",
+<<<<<<< HEAD
+                "file": "运维相关/工具/SaltStack.md",
+=======
+                "file": "概念/技术概念/硬件/元件/脚位.md",
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "线性变换"
+<<<<<<< HEAD
+              "title": "SaltStack"
+=======
+              "title": "脚位"
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
             }
           }
         ]
@@ -27,20 +43,20 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3ed73a34c84567ea",
+    "id": "15efdc66f1ebc9b2",
     "type": "split",
     "children": [
       {
-        "id": "9598d96645af2076",
+        "id": "3218089d01c1d4ac",
         "type": "tabs",
         "children": [
           {
-            "id": "6d4d09daf75934c3",
+            "id": "31e62439d44a2651",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -48,12 +64,16 @@
             }
           },
           {
-            "id": "c09f5c806785bcb7",
+            "id": "3b4af9cbdca55ae8",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "SAP",
+<<<<<<< HEAD
+                "query": "",
+=======
+                "query": "分立",
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +85,7 @@
             }
           },
           {
-            "id": "0e8c2dce02f9aa4d",
+            "id": "012f8f1c7cb3affd",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -95,23 +115,31 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
+    "width": 300
+=======
     "width": 318.5
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
   },
   "right": {
-    "id": "f64e73f1e1e5ced3",
+    "id": "dc0be95d815429ed",
     "type": "split",
     "children": [
       {
-        "id": "ca2f10654395b83f",
+        "id": "b67a8fb24e9a0df3",
         "type": "tabs",
         "children": [
           {
-            "id": "f654b7183e54a645",
+            "id": "1492d527e766529b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
+                "file": "概念/技术概念/区块链/简介.md",
+=======
                 "file": "海量数据处理/IO多路复用/水平触发和边缘触发.md",
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,25 +149,29 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
+<<<<<<< HEAD
+              "title": "简介 的反向链接列表"
+=======
               "title": "水平触发和边缘触发 的反向链接列表"
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
             }
           },
           {
-            "id": "d5554812dca1b1b2",
+            "id": "4d6b8622a1b3780c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "架构历史/微服务.md",
+                "file": "概念/技术概念/区块链/简介.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "微服务 的出链列表"
+              "title": "简介 的出链列表"
             }
           },
           {
-            "id": "68ab6adb98b0f2fe",
+            "id": "e4e6bd9a876a508b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -154,18 +186,26 @@
             }
           },
           {
-            "id": "8c9ac7adc08ce980",
+            "id": "b2311181c5f24bb8",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
+                "file": "概念/技术概念/区块链/简介.md",
+=======
                 "file": "概念/技术概念/计算机基础/操作系统/启动引导/未命名.base",
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
+<<<<<<< HEAD
+              "title": "简介 的大纲"
+=======
               "title": "未命名 的大纲"
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
             }
           }
         ],
@@ -187,58 +227,90 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+<<<<<<< HEAD
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
+    }
+  },
+  "active": "694dc2f3cb983df4",
+  "lastOpenFiles": [
+    "概念/技术概念/总线.md",
+    "运维相关/工具/SaltStack.md",
+    "运维相关/工具",
+    "运维相关/容量管理/容量规划.md",
+    "概念/技术概念/SIP.md",
+    "Pasted image 20250712170959.png",
+    "Pasted image 20250712170930.png",
+    "Pasted image 20250712170857.png",
+    "运维相关/监控.md",
+    "运维相关/变更管理/概念.md",
+    "运维相关/部署/分级发布.md",
+    "运维相关/变更管理",
+    "运维相关/部署/灰度发布(金丝雀发布).md",
+    "Pasted image 20250706151756.png",
+    "运维相关/流量探针.md",
+    "运维相关/容量管理",
+    "运维相关/部署/异地多活.md",
+    "运维相关/部署/蓝绿部署.md",
+    "运维相关/部署/滚动更新.md",
+    "运维相关/备份/温备份.md",
+    "运维相关/备份/热备份.md",
+    "运维相关/备份/冷备份.md",
+    "概念/技术概念/区块链/简介.md"
+=======
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "3ca78959d69cb25c",
+  "active": "6d4d09daf75934c3",
   "lastOpenFiles": [
-    "概念/数学概念/线性代数/基/基的定义.md",
-    "概念/数学概念/线性代数/线性变换/线性变换.md",
-    "概念/数学概念/线性代数/线性变换",
-    "概念/数学概念/线性代数/基/向量的基.md",
-    "概念/数学概念/线性代数/基/一般基.md",
-    "概念/数学概念/线性代数/基/线性相关.md",
-    "概念/数学概念/线性代数/基",
-    "Pasted image 20251017170806.png",
-    "概念/数学概念/线性代数/基/要张成一个 $n$ 维向量空间，至少需要 $n$ 个线性无关的向量。.md",
-    "Pasted image 20251017163925.png",
-    "Pasted image 20251017163916.png",
-    "Pasted image 20251017163527.png",
-    "Pasted image 20251017163514.png",
-    "概念/数学概念/线性代数/什么是向量.md",
-    "Pasted image 20251017163330.png",
-    "之后再分类/有趣的回答/agent的基本分类/锦辉的回答.md",
-    "概念/数学概念/线性代数",
-    "Pasted image 20251017151024.png",
-    "Pasted image 20251017150400.png",
-    "Pasted image 20251017150246.png",
-    "概念/业务概念/ERP/单一事实来源.md",
-    "之后再分类/有趣的回答/agent的基本分类",
-    "之后再分类/有趣的回答/为什么写博客/andysblog 的回答.md",
-    "之后再分类/有趣的回答/为什么写博客",
-    "概念/业务概念/ERP/SAP.md",
-    "概念/业务概念/ERP/ERP概论.md",
-    "概念/业务概念/ERP/ABAP.md",
-    "智慧政府/来自TO B的思考/来自TO B的思考.md",
-    "概念/技术概念/运维相关/容器编排/k8s/intree 和 outTree.md",
-    "概念/技术概念/杂项/CDN(内容分发网络).md",
-    "概念/技术概念/运维相关/容器编排/k8s/持久化/存储插件.md",
-    "概念/技术概念/运维相关/容器编排/k8s/持久化/PVC.md",
-    "概念/技术概念/运维相关/容器编排/k8s/持久化/PV.md",
-    "概念/技术概念/运维相关/容器编排/k8s/持久化",
-    "概念/技术概念/运维相关/容器编排/k8s/插件/DNS 插件.md",
-    "概念/技术概念/运维相关/容器编排/k8s/插件/插件简介.md",
-    "概念/技术概念/运维相关/clusterIP.md",
-    "之后再分类/有趣的回答/后端存用户密码有必要使用慢哈希加盐吗/DBinary的回答.md",
-    "梗/vibe code(氛围编码).md",
-    "之后再分类/有趣的回答/后端存用户密码有必要使用慢哈希加盐吗.md",
-    "之后再分类/有趣的回答/后端存用户密码有必要使用慢哈希加盐吗",
-    "梗/BDFL.md",
-    "未命名 1.base",
+    "概念/技术概念/WebRTC.md",
+    "概念/技术概念/移动端/smali(安卓逆向语言).md",
+    "概念/技术概念/杂项/色彩编码模型/RGB.md",
+    "概念/技术概念/杂项/色彩编码模型/YUV.md",
+    "概念/技术概念/杂项/色彩编码模型/YIQ.md",
+    "概念/技术概念/杂项/色彩编码模型/三者对比.md",
+    "概念/技术概念/杂项/色彩编码模型/概述.md",
+    "概念/技术概念/运维相关/容器/CRI.md",
     "概念/技术概念/杂项/色彩编码模型",
+    "概念/技术概念/运维相关/容器/OCI runtime.md",
+    "概念/技术概念/运维相关/容器/podman/Podman.md",
     "技术演进和历史",
+    "概念/技术概念/运维相关/容器/OCI.md",
     "Pasted image 20250928101529.png",
+    "Pasted image 20250928101512.png",
+    "Pasted image 20250928101443.png",
+    "Pasted image 20250928101419.png",
+    "Pasted image 20250928101335.png",
+    "概念/技术概念/运维相关/容器/docker/问题/docker是容器，还是容器引擎？如果是引擎，那么真正的容器是linux的原生容器吗.md",
+    "概念/技术概念/运维相关/容器/docker/仓库.md",
+    "概念/技术概念/运维相关/容器/docker/问题",
+    "概念/技术概念/运维相关/容器/docker/docker简介.md",
+    "Pasted image 20250928100107.png",
+    "概念/技术概念/运维相关/容器/docker/Dockers 提供的优势.md",
+    "概念/技术概念/运维相关/容器/podman",
+    "概念/技术概念/运维相关/容器/docker/dockerFile多阶段构建.md",
+    "概念/技术概念/运维相关/容器/docker/docker容器和虚拟机的不同.md",
+    "概念/技术概念/运维相关/容器/docker/存储/数据卷.md",
+    "概念/技术概念/运维相关/容器/docker/存储/挂载主机目录.md",
+    "概念/技术概念/运维相关/容器/docker/docker操作/列出镜像.md",
+    "概念/技术概念/运维相关/容器/docker/docker操作/获取镜像.md",
+    "概念/技术概念/杂项/RTSP和RTMP.md",
+    "概念/技术概念/运维相关/容器编排/k8s/节点组件/容器运行时.md",
+    "概念/技术概念/运维相关/容器编排/k8s/节点组件/kube-proxy.md",
+    "概念/技术概念/运维相关/容器编排/k8s/节点组件/节点组件简介.md",
+    "概念/技术概念/运维相关/容器编排/k8s/有状态无状态/定义.md",
+    "概念/技术概念/运维相关/容器编排/k8s/节点组件",
+    "概念/技术概念/运维相关/容器编排/k8s/有状态无状态",
+    "概念/技术概念/运维相关/容器编排/k8s/控制平面",
+    "概念/技术概念/运维相关/容器编排/k8s/插件",
+    "概念/技术概念/运维相关/容器/docker/存储",
+    "概念/技术概念/运维相关/容器编排/k8s",
+    "Pasted image 20250926163823.png",
+    "Pasted image 20250926105932.png",
+    "Pasted image 20250926101741.png",
+    "Pasted image 20250926101700.png",
     "未命名 1.canvas",
     "未命名.canvas"
+>>>>>>> 678e83848bdbdaabce5bd5809a68d67ad698624b
   ]
 }
