@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/feature flag.md",
+                "file": "系统设计/第05章：一致性hash设计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "feature flag"
+              "title": "第05章：一致性hash设计"
             }
           }
         ]
@@ -171,8 +171,18 @@
   },
   "active": "885a2b6ee1cdb05a",
   "lastOpenFiles": [
-    "人月神话/开发过程中错误的乐观主义.md",
+    "系统设计/第04章：设计一个限流器.md",
+    "系统设计/第05章：一致性hash设计.md",
+    "Pasted image 20251009174839.png",
+    "Pasted image 20251009174700.png",
+    "Pasted image 20251009174122.png",
+    "Pasted image 20251009173530.png",
+    "Pasted image 20251009172757.png",
+    "Pasted image 20251009172753.png",
+    "系统设计/第01章：从0到百万用户.md",
     "杂项/feature flag.md",
+    "系统设计",
+    "人月神话/开发过程中错误的乐观主义.md",
     "杂项",
     "领域驱动设计/实体.md",
     "领域驱动设计/限界上下文.md",
